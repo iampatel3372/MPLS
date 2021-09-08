@@ -1,0 +1,40 @@
+ID 0 SRC 21  Destination 0       Label { -1 323 323 414 414 789 789 655 655 -1  }  Path Cost : 4
+ID 1 SRC 19  Destination 4       Label { -1 458 458 8 8 718 718 793 793 173 173 -1  }  Path Cost : 5
+ID 2 SRC 2  Destination 11       Label { -1 177 177 657 657 104 104 696 696 873 873 -1  }  Path Cost : 5
+ID 3 SRC 2  Destination 20       Label { -1 148 148 641 641 632 632 535 535 581 581 872 872 658 658 -1  }  Path Cost : 7
+ID 4 SRC 12  Destination 7       Label { -1 72 72 443 443 -1  }  Path Cost : 2
+ID 5 SRC 14  Destination 16       Label { -1 621 621 842 842 -1  }  Path Cost : 2
+ID 6 SRC 14  Destination 19       Label { -1 544 544 -1  }  Path Cost : 1
+ID 8 SRC 14  Destination 6       Label { -1 83 83 122 122 -1  }  Path Cost : 2
+ID 9 SRC 23  Destination 0       Label { -1 26 26 835 835 859 859 101 101 -1  }  Path Cost : 4
+ID 10 SRC 17  Destination 15       Label { -1 601 601 -1  }  Path Cost : 1
+ID 11 SRC 11  Destination 21       Label { -1 48 48 756 756 459 459 -1  }  Path Cost : 3
+ID 12 SRC 9  Destination 0       Label { -1 8 8 -1  }  Path Cost : 1
+ID 13 SRC 22  Destination 12       Label { -1 427 427 604 604 -1  }  Path Cost : 2
+ID 14 SRC 11  Destination 17       Label { -1 581 581 -1  }  Path Cost : 1
+ID 15 SRC 11  Destination 15       Label { -1 604 604 262 262 -1  }  Path Cost : 2
+ID 18 SRC 21  Destination 17       Label { -1 485 485 452 452 -1  }  Path Cost : 2
+ID 19 SRC 5  Destination 13       Label { -1 287 287 986 986 445 445 -1  }  Path Cost : 3
+ID 22 SRC 10  Destination 8       Label { -1 320 320 873 873 -1  }  Path Cost : 2
+ID 25 SRC 15  Destination 21       Label { -1 779 779 344 344 -1  }  Path Cost : 2
+ID 26 SRC 22  Destination 0       Label { -1 531 531 451 451 787 787 304 304 -1  }  Path Cost : 4
+ID 27 SRC 11  Destination 7       Label { -1 493 493 883 883 -1  }  Path Cost : 2
+ID 31 SRC 0  Destination 10       Label { -1 788 788 415 415 -1  }  Path Cost : 2
+ID 32 SRC 7  Destination 14       Label { -1 109 109 -1  }  Path Cost : 1
+ID 33 SRC 5  Destination 15       Label { -1 375 375 626 626 162 162 976 976 274 274 -1  }  Path Cost : 5
+ID 34 SRC 12  Destination 22       Label { -1 118 118 788 788 -1  }  Path Cost : 2
+ID 36 SRC 12  Destination 15       Label { -1 482 482 745 745 -1  }  Path Cost : 2
+ID 38 SRC 9  Destination 15       Label { -1 192 192 816 816 -1  }  Path Cost : 2
+ID 45 SRC 4  Destination 5       Label { -1 701 701 -1  }  Path Cost : 1
+ID 46 SRC 13  Destination 15       Label { -1 206 206 453 453 305 305 -1  }  Path Cost : 3
+ID 53 SRC 23  Destination 18       Label { -1 494 494 -1  }  Path Cost : 1
+ID 55 SRC 9  Destination 14       Label { -1 39 39 751 751 -1  }  Path Cost : 2
+ID 56 SRC 20  Destination 15       Label { -1 366 366 312 312 -1  }  Path Cost : 2
+ID 57 SRC 7  Destination 22       Label { -1 130 130 310 310 196 196 -1  }  Path Cost : 3
+ID 59 SRC 14  Destination 19       Label { -1 181 181 -1  }  Path Cost : 1
+ID 66 SRC 18  Destination 9       Label { -1 649 649 500 500 227 227 -1  }  Path Cost : 3
+ID 79 SRC 20  Destination 22       Label { -1 732 732 688 688 -1  }  Path Cost : 2
+ID 80 SRC 18  Destination 20       Label { -1 394 394 -1  }  Path Cost : 1
+ID 85 SRC 21  Destination 15       Label { -1 393 393 63 63 -1  }  Path Cost : 2
+ID 93 SRC 11  Destination 14       Label { -1 21 21 555 555 -1  }  Path Cost : 2
+ID 98 SRC 21  Destination 18       Label { -1 792 792 -1  }  Path Cost : 1

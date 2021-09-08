@@ -1,0 +1,1104 @@
+SRC : 0 Destination : 1 Path : 0 -> 1  Cost :1
+SRC : 0 Destination : 1 Path : 0 -> 8 -> 2 -> 1  Cost :3
+SRC : 0 Destination : 2 Path : 0 -> 1 -> 2  Cost :2
+SRC : 0 Destination : 2 Path : 0 -> 8 -> 2  Cost :2
+SRC : 0 Destination : 3 Path : 0 -> 1 -> 2 -> 3  Cost :3
+SRC : 0 Destination : 3 Path : 0 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :6
+SRC : 0 Destination : 4 Path : 0 -> 1 -> 2 -> 3 -> 4  Cost :4
+SRC : 0 Destination : 4 Path : 0 -> 8 -> 7 -> 6 -> 5 -> 4  Cost :5
+SRC : 0 Destination : 5 Path : 0 -> 8 -> 7 -> 6 -> 5  Cost :4
+SRC : 0 Destination : 5 Path : 0 -> 1 -> 2 -> 3 -> 4 -> 5  Cost :5
+SRC : 0 Destination : 6 Path : 0 -> 8 -> 7 -> 6  Cost :3
+SRC : 0 Destination : 6 Path : 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :6
+SRC : 0 Destination : 7 Path : 0 -> 8 -> 7  Cost :2
+SRC : 0 Destination : 7 Path : 0 -> 9 -> 12 -> 13 -> 7  Cost :4
+SRC : 0 Destination : 8 Path : 0 -> 8  Cost :1
+SRC : 0 Destination : 8 Path : 0 -> 9 -> 8  Cost :2
+SRC : 0 Destination : 9 Path : 0 -> 9  Cost :1
+SRC : 0 Destination : 9 Path : 0 -> 8 -> 9  Cost :2
+SRC : 0 Destination : 10 Path : 0 -> 9 -> 10  Cost :2
+SRC : 0 Destination : 10 Path : 0 -> 8 -> 11 -> 10  Cost :3
+SRC : 0 Destination : 11 Path : 0 -> 8 -> 11  Cost :2
+SRC : 0 Destination : 11 Path : 0 -> 9 -> 10 -> 11  Cost :3
+SRC : 0 Destination : 12 Path : 0 -> 8 -> 12  Cost :2
+SRC : 0 Destination : 12 Path : 0 -> 9 -> 12  Cost :2
+SRC : 0 Destination : 13 Path : 0 -> 8 -> 7 -> 13  Cost :3
+SRC : 0 Destination : 13 Path : 0 -> 9 -> 12 -> 13  Cost :3
+SRC : 0 Destination : 14 Path : 0 -> 8 -> 14  Cost :2
+SRC : 0 Destination : 14 Path : 0 -> 9 -> 12 -> 14  Cost :3
+SRC : 0 Destination : 15 Path : 0 -> 9 -> 10 -> 15  Cost :3
+SRC : 0 Destination : 15 Path : 0 -> 8 -> 11 -> 17 -> 15  Cost :4
+SRC : 0 Destination : 16 Path : 0 -> 9 -> 10 -> 15 -> 16  Cost :4
+SRC : 0 Destination : 16 Path : 0 -> 8 -> 11 -> 17 -> 16  Cost :4
+SRC : 0 Destination : 17 Path : 0 -> 8 -> 11 -> 17  Cost :3
+SRC : 0 Destination : 17 Path : 0 -> 9 -> 12 -> 17  Cost :3
+SRC : 0 Destination : 18 Path : 0 -> 8 -> 14 -> 18  Cost :3
+SRC : 0 Destination : 18 Path : 0 -> 9 -> 10 -> 15 -> 18  Cost :4
+SRC : 0 Destination : 19 Path : 0 -> 8 -> 14 -> 19  Cost :3
+SRC : 0 Destination : 19 Path : 0 -> 9 -> 12 -> 13 -> 19  Cost :4
+SRC : 0 Destination : 20 Path : 0 -> 8 -> 14 -> 18 -> 20  Cost :4
+SRC : 0 Destination : 20 Path : 0 -> 9 -> 12 -> 13 -> 19 -> 20  Cost :5
+SRC : 0 Destination : 21 Path : 0 -> 8 -> 14 -> 18 -> 21  Cost :4
+SRC : 0 Destination : 21 Path : 0 -> 9 -> 12 -> 17 -> 22 -> 21  Cost :5
+SRC : 0 Destination : 22 Path : 0 -> 8 -> 11 -> 17 -> 22  Cost :4
+SRC : 0 Destination : 22 Path : 0 -> 9 -> 8 -> 14 -> 18 -> 22  Cost :5
+SRC : 0 Destination : 23 Path : 0 -> 8 -> 11 -> 17 -> 23  Cost :4
+SRC : 0 Destination : 23 Path : 0 -> 9 -> 10 -> 15 -> 16 -> 23  Cost :5
+SRC : 1 Destination : 0 Path : 1 -> 0  Cost :1
+SRC : 1 Destination : 0 Path : 1 -> 2 -> 8 -> 0  Cost :3
+SRC : 1 Destination : 2 Path : 1 -> 2  Cost :1
+SRC : 1 Destination : 2 Path : 1 -> 0 -> 8 -> 2  Cost :3
+SRC : 1 Destination : 3 Path : 1 -> 2 -> 3  Cost :2
+SRC : 1 Destination : 3 Path : 1 -> 0 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :7
+SRC : 1 Destination : 4 Path : 1 -> 2 -> 3 -> 4  Cost :3
+SRC : 1 Destination : 4 Path : 1 -> 0 -> 8 -> 7 -> 6 -> 5 -> 4  Cost :6
+SRC : 1 Destination : 5 Path : 1 -> 2 -> 3 -> 4 -> 5  Cost :4
+SRC : 1 Destination : 5 Path : 1 -> 0 -> 8 -> 7 -> 6 -> 5  Cost :5
+SRC : 1 Destination : 6 Path : 1 -> 0 -> 8 -> 7 -> 6  Cost :4
+SRC : 1 Destination : 6 Path : 1 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :5
+SRC : 1 Destination : 7 Path : 1 -> 0 -> 8 -> 7  Cost :3
+SRC : 1 Destination : 7 Path : 1 -> 2 -> 8 -> 14 -> 7  Cost :4
+SRC : 1 Destination : 8 Path : 1 -> 0 -> 8  Cost :2
+SRC : 1 Destination : 8 Path : 1 -> 2 -> 8  Cost :2
+SRC : 1 Destination : 9 Path : 1 -> 0 -> 9  Cost :2
+SRC : 1 Destination : 9 Path : 1 -> 2 -> 8 -> 9  Cost :3
+SRC : 1 Destination : 10 Path : 1 -> 0 -> 9 -> 10  Cost :3
+SRC : 1 Destination : 10 Path : 1 -> 2 -> 8 -> 11 -> 10  Cost :4
+SRC : 1 Destination : 11 Path : 1 -> 0 -> 8 -> 11  Cost :3
+SRC : 1 Destination : 11 Path : 1 -> 2 -> 8 -> 12 -> 11  Cost :4
+SRC : 1 Destination : 12 Path : 1 -> 0 -> 8 -> 12  Cost :3
+SRC : 1 Destination : 12 Path : 1 -> 2 -> 8 -> 9 -> 12  Cost :4
+SRC : 1 Destination : 13 Path : 1 -> 0 -> 8 -> 7 -> 13  Cost :4
+SRC : 1 Destination : 13 Path : 1 -> 2 -> 8 -> 12 -> 13  Cost :4
+SRC : 1 Destination : 14 Path : 1 -> 0 -> 8 -> 14  Cost :3
+SRC : 1 Destination : 14 Path : 1 -> 2 -> 8 -> 7 -> 14  Cost :4
+SRC : 1 Destination : 15 Path : 1 -> 0 -> 9 -> 10 -> 15  Cost :4
+SRC : 1 Destination : 15 Path : 1 -> 2 -> 8 -> 11 -> 17 -> 15  Cost :5
+SRC : 1 Destination : 16 Path : 1 -> 0 -> 9 -> 10 -> 15 -> 16  Cost :5
+SRC : 1 Destination : 16 Path : 1 -> 2 -> 8 -> 11 -> 17 -> 16  Cost :5
+SRC : 1 Destination : 17 Path : 1 -> 0 -> 8 -> 11 -> 17  Cost :4
+SRC : 1 Destination : 17 Path : 1 -> 2 -> 8 -> 12 -> 17  Cost :4
+SRC : 1 Destination : 18 Path : 1 -> 0 -> 8 -> 14 -> 18  Cost :4
+SRC : 1 Destination : 18 Path : 1 -> 2 -> 8 -> 11 -> 17 -> 18  Cost :5
+SRC : 1 Destination : 19 Path : 1 -> 0 -> 8 -> 14 -> 19  Cost :4
+SRC : 1 Destination : 19 Path : 1 -> 2 -> 8 -> 7 -> 13 -> 19  Cost :5
+SRC : 1 Destination : 20 Path : 1 -> 0 -> 8 -> 14 -> 18 -> 20  Cost :5
+SRC : 1 Destination : 20 Path : 1 -> 2 -> 8 -> 7 -> 13 -> 19 -> 20  Cost :6
+SRC : 1 Destination : 21 Path : 1 -> 0 -> 8 -> 14 -> 18 -> 21  Cost :5
+SRC : 1 Destination : 21 Path : 1 -> 2 -> 8 -> 11 -> 17 -> 22 -> 21  Cost :6
+SRC : 1 Destination : 22 Path : 1 -> 0 -> 8 -> 11 -> 17 -> 22  Cost :5
+SRC : 1 Destination : 22 Path : 1 -> 2 -> 8 -> 14 -> 18 -> 22  Cost :5
+SRC : 1 Destination : 23 Path : 1 -> 0 -> 8 -> 11 -> 17 -> 23  Cost :5
+SRC : 1 Destination : 23 Path : 1 -> 2 -> 8 -> 14 -> 18 -> 23  Cost :5
+SRC : 2 Destination : 0 Path : 2 -> 1 -> 0  Cost :2
+SRC : 2 Destination : 0 Path : 2 -> 8 -> 0  Cost :2
+SRC : 2 Destination : 1 Path : 2 -> 1  Cost :1
+SRC : 2 Destination : 1 Path : 2 -> 8 -> 0 -> 1  Cost :3
+SRC : 2 Destination : 3 Path : 2 -> 3  Cost :1
+SRC : 2 Destination : 3 Path : 2 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :6
+SRC : 2 Destination : 4 Path : 2 -> 3 -> 4  Cost :2
+SRC : 2 Destination : 4 Path : 2 -> 8 -> 7 -> 6 -> 5 -> 4  Cost :5
+SRC : 2 Destination : 5 Path : 2 -> 3 -> 4 -> 5  Cost :3
+SRC : 2 Destination : 5 Path : 2 -> 8 -> 7 -> 6 -> 5  Cost :4
+SRC : 2 Destination : 6 Path : 2 -> 8 -> 7 -> 6  Cost :3
+SRC : 2 Destination : 6 Path : 2 -> 3 -> 4 -> 5 -> 6  Cost :4
+SRC : 2 Destination : 7 Path : 2 -> 8 -> 7  Cost :2
+SRC : 2 Destination : 7 Path : 2 -> 3 -> 4 -> 5 -> 6 -> 7  Cost :5
+SRC : 2 Destination : 8 Path : 2 -> 8  Cost :1
+SRC : 2 Destination : 8 Path : 2 -> 1 -> 0 -> 8  Cost :3
+SRC : 2 Destination : 9 Path : 2 -> 8 -> 9  Cost :2
+SRC : 2 Destination : 9 Path : 2 -> 1 -> 0 -> 9  Cost :3
+SRC : 2 Destination : 10 Path : 2 -> 8 -> 9 -> 10  Cost :3
+SRC : 2 Destination : 10 Path : 2 -> 1 -> 0 -> 8 -> 11 -> 10  Cost :5
+SRC : 2 Destination : 11 Path : 2 -> 8 -> 11  Cost :2
+SRC : 2 Destination : 11 Path : 2 -> 1 -> 0 -> 9 -> 10 -> 11  Cost :5
+SRC : 2 Destination : 12 Path : 2 -> 8 -> 12  Cost :2
+SRC : 2 Destination : 12 Path : 2 -> 1 -> 0 -> 9 -> 12  Cost :4
+SRC : 2 Destination : 13 Path : 2 -> 8 -> 7 -> 13  Cost :3
+SRC : 2 Destination : 13 Path : 2 -> 1 -> 0 -> 8 -> 12 -> 13  Cost :5
+SRC : 2 Destination : 14 Path : 2 -> 8 -> 14  Cost :2
+SRC : 2 Destination : 14 Path : 2 -> 1 -> 0 -> 8 -> 7 -> 14  Cost :5
+SRC : 2 Destination : 15 Path : 2 -> 8 -> 9 -> 10 -> 15  Cost :4
+SRC : 2 Destination : 15 Path : 2 -> 1 -> 0 -> 8 -> 11 -> 17 -> 15  Cost :6
+SRC : 2 Destination : 16 Path : 2 -> 8 -> 11 -> 17 -> 16  Cost :4
+SRC : 2 Destination : 16 Path : 2 -> 1 -> 0 -> 9 -> 10 -> 15 -> 16  Cost :6
+SRC : 2 Destination : 17 Path : 2 -> 8 -> 11 -> 17  Cost :3
+SRC : 2 Destination : 17 Path : 2 -> 1 -> 0 -> 8 -> 12 -> 17  Cost :5
+SRC : 2 Destination : 18 Path : 2 -> 8 -> 14 -> 18  Cost :3
+SRC : 2 Destination : 18 Path : 2 -> 1 -> 0 -> 9 -> 10 -> 15 -> 18  Cost :6
+SRC : 2 Destination : 19 Path : 2 -> 8 -> 14 -> 19  Cost :3
+SRC : 2 Destination : 19 Path : 2 -> 1 -> 0 -> 8 -> 7 -> 13 -> 19  Cost :6
+SRC : 2 Destination : 20 Path : 2 -> 8 -> 14 -> 18 -> 20  Cost :4
+SRC : 2 Destination : 20 Path : 2 -> 1 -> 0 -> 8 -> 7 -> 13 -> 19 -> 20  Cost :7
+SRC : 2 Destination : 21 Path : 2 -> 8 -> 14 -> 18 -> 21  Cost :4
+SRC : 2 Destination : 21 Path : 2 -> 1 -> 0 -> 8 -> 11 -> 17 -> 22 -> 21  Cost :7
+SRC : 2 Destination : 22 Path : 2 -> 8 -> 11 -> 17 -> 22  Cost :4
+SRC : 2 Destination : 22 Path : 2 -> 1 -> 0 -> 8 -> 14 -> 18 -> 22  Cost :6
+SRC : 2 Destination : 23 Path : 2 -> 8 -> 11 -> 17 -> 23  Cost :4
+SRC : 2 Destination : 23 Path : 2 -> 1 -> 0 -> 8 -> 14 -> 18 -> 23  Cost :6
+SRC : 3 Destination : 0 Path : 3 -> 2 -> 1 -> 0  Cost :3
+SRC : 3 Destination : 0 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 0  Cost :6
+SRC : 3 Destination : 1 Path : 3 -> 2 -> 1  Cost :2
+SRC : 3 Destination : 1 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 0 -> 1  Cost :7
+SRC : 3 Destination : 2 Path : 3 -> 2  Cost :1
+SRC : 3 Destination : 2 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 2  Cost :6
+SRC : 3 Destination : 4 Path : 3 -> 4  Cost :1
+SRC : 3 Destination : 4 Path : 3 -> 2 -> 8 -> 7 -> 6 -> 5 -> 4  Cost :6
+SRC : 3 Destination : 5 Path : 3 -> 4 -> 5  Cost :2
+SRC : 3 Destination : 5 Path : 3 -> 2 -> 8 -> 7 -> 6 -> 5  Cost :5
+SRC : 3 Destination : 6 Path : 3 -> 4 -> 5 -> 6  Cost :3
+SRC : 3 Destination : 6 Path : 3 -> 2 -> 8 -> 7 -> 6  Cost :4
+SRC : 3 Destination : 7 Path : 3 -> 2 -> 8 -> 7  Cost :3
+SRC : 3 Destination : 7 Path : 3 -> 4 -> 5 -> 6 -> 7  Cost :4
+SRC : 3 Destination : 8 Path : 3 -> 2 -> 8  Cost :2
+SRC : 3 Destination : 8 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 8  Cost :5
+SRC : 3 Destination : 9 Path : 3 -> 2 -> 8 -> 9  Cost :3
+SRC : 3 Destination : 9 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 0 -> 9  Cost :7
+SRC : 3 Destination : 10 Path : 3 -> 2 -> 8 -> 9 -> 10  Cost :4
+SRC : 3 Destination : 10 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 11 -> 10  Cost :7
+SRC : 3 Destination : 11 Path : 3 -> 2 -> 8 -> 11  Cost :3
+SRC : 3 Destination : 11 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 12 -> 11  Cost :7
+SRC : 3 Destination : 12 Path : 3 -> 2 -> 8 -> 12  Cost :3
+SRC : 3 Destination : 12 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 13 -> 12  Cost :6
+SRC : 3 Destination : 13 Path : 3 -> 2 -> 8 -> 7 -> 13  Cost :4
+SRC : 3 Destination : 13 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 14 -> 13  Cost :6
+SRC : 3 Destination : 14 Path : 3 -> 2 -> 8 -> 14  Cost :3
+SRC : 3 Destination : 14 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 14  Cost :5
+SRC : 3 Destination : 15 Path : 3 -> 2 -> 8 -> 9 -> 10 -> 15  Cost :5
+SRC : 3 Destination : 15 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 14 -> 17 -> 15  Cost :7
+SRC : 3 Destination : 16 Path : 3 -> 2 -> 8 -> 11 -> 17 -> 16  Cost :5
+SRC : 3 Destination : 16 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 14 -> 17 -> 15 -> 16  Cost :8
+SRC : 3 Destination : 17 Path : 3 -> 2 -> 8 -> 11 -> 17  Cost :4
+SRC : 3 Destination : 17 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 14 -> 17  Cost :6
+SRC : 3 Destination : 18 Path : 3 -> 2 -> 8 -> 14 -> 18  Cost :4
+SRC : 3 Destination : 18 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 14 -> 17 -> 18  Cost :7
+SRC : 3 Destination : 19 Path : 3 -> 2 -> 8 -> 14 -> 19  Cost :4
+SRC : 3 Destination : 19 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 13 -> 19  Cost :6
+SRC : 3 Destination : 20 Path : 3 -> 2 -> 8 -> 14 -> 18 -> 20  Cost :5
+SRC : 3 Destination : 20 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 13 -> 19 -> 20  Cost :7
+SRC : 3 Destination : 21 Path : 3 -> 2 -> 8 -> 14 -> 18 -> 21  Cost :5
+SRC : 3 Destination : 21 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 13 -> 19 -> 20 -> 21  Cost :8
+SRC : 3 Destination : 22 Path : 3 -> 2 -> 8 -> 11 -> 17 -> 22  Cost :5
+SRC : 3 Destination : 22 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 14 -> 18 -> 22  Cost :7
+SRC : 3 Destination : 23 Path : 3 -> 2 -> 8 -> 11 -> 17 -> 23  Cost :5
+SRC : 3 Destination : 23 Path : 3 -> 4 -> 5 -> 6 -> 7 -> 14 -> 18 -> 23  Cost :7
+SRC : 4 Destination : 0 Path : 4 -> 3 -> 2 -> 1 -> 0  Cost :4
+SRC : 4 Destination : 0 Path : 4 -> 5 -> 6 -> 7 -> 8 -> 0  Cost :5
+SRC : 4 Destination : 1 Path : 4 -> 3 -> 2 -> 1  Cost :3
+SRC : 4 Destination : 1 Path : 4 -> 5 -> 6 -> 7 -> 8 -> 0 -> 1  Cost :6
+SRC : 4 Destination : 2 Path : 4 -> 3 -> 2  Cost :2
+SRC : 4 Destination : 2 Path : 4 -> 5 -> 6 -> 7 -> 8 -> 2  Cost :5
+SRC : 4 Destination : 3 Path : 4 -> 3  Cost :1
+SRC : 4 Destination : 3 Path : 4 -> 5 -> 6 -> 7 -> 8 -> 2 -> 3  Cost :6
+SRC : 4 Destination : 5 Path : 4 -> 5  Cost :1
+SRC : 4 Destination : 5 Path : 4 -> 3 -> 2 -> 8 -> 7 -> 6 -> 5  Cost :6
+SRC : 4 Destination : 6 Path : 4 -> 5 -> 6  Cost :2
+SRC : 4 Destination : 6 Path : 4 -> 3 -> 2 -> 8 -> 7 -> 6  Cost :5
+SRC : 4 Destination : 7 Path : 4 -> 5 -> 6 -> 7  Cost :3
+SRC : 4 Destination : 7 Path : 4 -> 3 -> 2 -> 8 -> 7  Cost :4
+SRC : 4 Destination : 8 Path : 4 -> 3 -> 2 -> 8  Cost :3
+SRC : 4 Destination : 8 Path : 4 -> 5 -> 6 -> 7 -> 8  Cost :4
+SRC : 4 Destination : 9 Path : 4 -> 3 -> 2 -> 8 -> 9  Cost :4
+SRC : 4 Destination : 9 Path : 4 -> 5 -> 6 -> 7 -> 8 -> 0 -> 9  Cost :6
+SRC : 4 Destination : 10 Path : 4 -> 3 -> 2 -> 8 -> 9 -> 10  Cost :5
+SRC : 4 Destination : 10 Path : 4 -> 5 -> 6 -> 7 -> 8 -> 11 -> 10  Cost :6
+SRC : 4 Destination : 11 Path : 4 -> 3 -> 2 -> 8 -> 11  Cost :4
+SRC : 4 Destination : 11 Path : 4 -> 5 -> 6 -> 7 -> 8 -> 12 -> 11  Cost :6
+SRC : 4 Destination : 12 Path : 4 -> 3 -> 2 -> 8 -> 12  Cost :4
+SRC : 4 Destination : 12 Path : 4 -> 5 -> 6 -> 7 -> 13 -> 12  Cost :5
+SRC : 4 Destination : 13 Path : 4 -> 5 -> 6 -> 7 -> 13  Cost :4
+SRC : 4 Destination : 13 Path : 4 -> 3 -> 2 -> 8 -> 12 -> 13  Cost :5
+SRC : 4 Destination : 14 Path : 4 -> 5 -> 6 -> 7 -> 14  Cost :4
+SRC : 4 Destination : 14 Path : 4 -> 3 -> 2 -> 8 -> 14  Cost :4
+SRC : 4 Destination : 15 Path : 4 -> 3 -> 2 -> 8 -> 9 -> 10 -> 15  Cost :6
+SRC : 4 Destination : 15 Path : 4 -> 5 -> 6 -> 7 -> 14 -> 17 -> 15  Cost :6
+SRC : 4 Destination : 16 Path : 4 -> 3 -> 2 -> 8 -> 11 -> 17 -> 16  Cost :6
+SRC : 4 Destination : 16 Path : 4 -> 5 -> 6 -> 7 -> 14 -> 17 -> 15 -> 16  Cost :7
+SRC : 4 Destination : 17 Path : 4 -> 3 -> 2 -> 8 -> 11 -> 17  Cost :5
+SRC : 4 Destination : 17 Path : 4 -> 5 -> 6 -> 7 -> 14 -> 17  Cost :5
+SRC : 4 Destination : 18 Path : 4 -> 5 -> 6 -> 7 -> 14 -> 18  Cost :5
+SRC : 4 Destination : 18 Path : 4 -> 3 -> 2 -> 8 -> 11 -> 17 -> 18  Cost :6
+SRC : 4 Destination : 19 Path : 4 -> 5 -> 6 -> 7 -> 13 -> 19  Cost :5
+SRC : 4 Destination : 19 Path : 4 -> 3 -> 2 -> 8 -> 14 -> 19  Cost :5
+SRC : 4 Destination : 20 Path : 4 -> 5 -> 6 -> 7 -> 14 -> 18 -> 20  Cost :6
+SRC : 4 Destination : 20 Path : 4 -> 3 -> 2 -> 8 -> 14 -> 19 -> 20  Cost :6
+SRC : 4 Destination : 21 Path : 4 -> 5 -> 6 -> 7 -> 14 -> 18 -> 21  Cost :6
+SRC : 4 Destination : 21 Path : 4 -> 3 -> 2 -> 8 -> 14 -> 19 -> 20 -> 21  Cost :7
+SRC : 4 Destination : 22 Path : 4 -> 3 -> 2 -> 8 -> 11 -> 17 -> 22  Cost :6
+SRC : 4 Destination : 22 Path : 4 -> 5 -> 6 -> 7 -> 14 -> 18 -> 22  Cost :6
+SRC : 4 Destination : 23 Path : 4 -> 3 -> 2 -> 8 -> 11 -> 17 -> 23  Cost :6
+SRC : 4 Destination : 23 Path : 4 -> 5 -> 6 -> 7 -> 14 -> 18 -> 23  Cost :6
+SRC : 5 Destination : 0 Path : 5 -> 6 -> 7 -> 8 -> 0  Cost :4
+SRC : 5 Destination : 0 Path : 5 -> 4 -> 3 -> 2 -> 1 -> 0  Cost :5
+SRC : 5 Destination : 1 Path : 5 -> 4 -> 3 -> 2 -> 1  Cost :4
+SRC : 5 Destination : 1 Path : 5 -> 6 -> 7 -> 8 -> 0 -> 1  Cost :5
+SRC : 5 Destination : 2 Path : 5 -> 4 -> 3 -> 2  Cost :3
+SRC : 5 Destination : 2 Path : 5 -> 6 -> 7 -> 8 -> 2  Cost :4
+SRC : 5 Destination : 3 Path : 5 -> 4 -> 3  Cost :2
+SRC : 5 Destination : 3 Path : 5 -> 6 -> 7 -> 8 -> 2 -> 3  Cost :5
+SRC : 5 Destination : 4 Path : 5 -> 4  Cost :1
+SRC : 5 Destination : 4 Path : 5 -> 6 -> 7 -> 8 -> 2 -> 3 -> 4  Cost :6
+SRC : 5 Destination : 6 Path : 5 -> 6  Cost :1
+SRC : 5 Destination : 6 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 7 -> 6  Cost :6
+SRC : 5 Destination : 7 Path : 5 -> 6 -> 7  Cost :2
+SRC : 5 Destination : 7 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 7  Cost :5
+SRC : 5 Destination : 8 Path : 5 -> 6 -> 7 -> 8  Cost :3
+SRC : 5 Destination : 8 Path : 5 -> 4 -> 3 -> 2 -> 8  Cost :4
+SRC : 5 Destination : 9 Path : 5 -> 6 -> 7 -> 8 -> 9  Cost :4
+SRC : 5 Destination : 9 Path : 5 -> 4 -> 3 -> 2 -> 1 -> 0 -> 9  Cost :6
+SRC : 5 Destination : 10 Path : 5 -> 6 -> 7 -> 8 -> 9 -> 10  Cost :5
+SRC : 5 Destination : 10 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 11 -> 10  Cost :6
+SRC : 5 Destination : 11 Path : 5 -> 6 -> 7 -> 8 -> 11  Cost :4
+SRC : 5 Destination : 11 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 12 -> 11  Cost :6
+SRC : 5 Destination : 12 Path : 5 -> 6 -> 7 -> 8 -> 12  Cost :4
+SRC : 5 Destination : 12 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 9 -> 12  Cost :6
+SRC : 5 Destination : 13 Path : 5 -> 6 -> 7 -> 13  Cost :3
+SRC : 5 Destination : 13 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 12 -> 13  Cost :6
+SRC : 5 Destination : 14 Path : 5 -> 6 -> 7 -> 14  Cost :3
+SRC : 5 Destination : 14 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 14  Cost :5
+SRC : 5 Destination : 15 Path : 5 -> 6 -> 7 -> 14 -> 17 -> 15  Cost :5
+SRC : 5 Destination : 15 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 9 -> 10 -> 15  Cost :7
+SRC : 5 Destination : 16 Path : 5 -> 6 -> 7 -> 14 -> 17 -> 16  Cost :5
+SRC : 5 Destination : 16 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 9 -> 10 -> 15 -> 16  Cost :8
+SRC : 5 Destination : 17 Path : 5 -> 6 -> 7 -> 14 -> 17  Cost :4
+SRC : 5 Destination : 17 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 11 -> 17  Cost :6
+SRC : 5 Destination : 18 Path : 5 -> 6 -> 7 -> 14 -> 18  Cost :4
+SRC : 5 Destination : 18 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 11 -> 17 -> 18  Cost :7
+SRC : 5 Destination : 19 Path : 5 -> 6 -> 7 -> 13 -> 19  Cost :4
+SRC : 5 Destination : 19 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 14 -> 19  Cost :6
+SRC : 5 Destination : 20 Path : 5 -> 6 -> 7 -> 14 -> 18 -> 20  Cost :5
+SRC : 5 Destination : 20 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 14 -> 19 -> 20  Cost :7
+SRC : 5 Destination : 21 Path : 5 -> 6 -> 7 -> 14 -> 18 -> 21  Cost :5
+SRC : 5 Destination : 21 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 14 -> 19 -> 20 -> 21  Cost :8
+SRC : 5 Destination : 22 Path : 5 -> 6 -> 7 -> 14 -> 17 -> 22  Cost :5
+SRC : 5 Destination : 22 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 14 -> 18 -> 22  Cost :7
+SRC : 5 Destination : 23 Path : 5 -> 6 -> 7 -> 14 -> 17 -> 23  Cost :5
+SRC : 5 Destination : 23 Path : 5 -> 4 -> 3 -> 2 -> 8 -> 14 -> 18 -> 23  Cost :7
+SRC : 6 Destination : 0 Path : 6 -> 7 -> 8 -> 0  Cost :3
+SRC : 6 Destination : 0 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> 0  Cost :6
+SRC : 6 Destination : 1 Path : 6 -> 7 -> 8 -> 0 -> 1  Cost :4
+SRC : 6 Destination : 1 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 1  Cost :5
+SRC : 6 Destination : 2 Path : 6 -> 7 -> 8 -> 2  Cost :3
+SRC : 6 Destination : 2 Path : 6 -> 5 -> 4 -> 3 -> 2  Cost :4
+SRC : 6 Destination : 3 Path : 6 -> 5 -> 4 -> 3  Cost :3
+SRC : 6 Destination : 3 Path : 6 -> 7 -> 8 -> 2 -> 3  Cost :4
+SRC : 6 Destination : 4 Path : 6 -> 5 -> 4  Cost :2
+SRC : 6 Destination : 4 Path : 6 -> 7 -> 8 -> 2 -> 3 -> 4  Cost :5
+SRC : 6 Destination : 5 Path : 6 -> 5  Cost :1
+SRC : 6 Destination : 5 Path : 6 -> 7 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :6
+SRC : 6 Destination : 7 Path : 6 -> 7  Cost :1
+SRC : 6 Destination : 7 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 7  Cost :6
+SRC : 6 Destination : 8 Path : 6 -> 7 -> 8  Cost :2
+SRC : 6 Destination : 8 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8  Cost :5
+SRC : 6 Destination : 9 Path : 6 -> 7 -> 8 -> 9  Cost :3
+SRC : 6 Destination : 9 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> 0 -> 9  Cost :7
+SRC : 6 Destination : 10 Path : 6 -> 7 -> 8 -> 9 -> 10  Cost :4
+SRC : 6 Destination : 10 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 11 -> 10  Cost :7
+SRC : 6 Destination : 11 Path : 6 -> 7 -> 8 -> 11  Cost :3
+SRC : 6 Destination : 11 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 12 -> 11  Cost :7
+SRC : 6 Destination : 12 Path : 6 -> 7 -> 8 -> 12  Cost :3
+SRC : 6 Destination : 12 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 9 -> 12  Cost :7
+SRC : 6 Destination : 13 Path : 6 -> 7 -> 13  Cost :2
+SRC : 6 Destination : 13 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 12 -> 13  Cost :7
+SRC : 6 Destination : 14 Path : 6 -> 7 -> 14  Cost :2
+SRC : 6 Destination : 14 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 14  Cost :6
+SRC : 6 Destination : 15 Path : 6 -> 7 -> 14 -> 17 -> 15  Cost :4
+SRC : 6 Destination : 15 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 9 -> 10 -> 15  Cost :8
+SRC : 6 Destination : 16 Path : 6 -> 7 -> 14 -> 17 -> 16  Cost :4
+SRC : 6 Destination : 16 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 9 -> 10 -> 15 -> 16  Cost :9
+SRC : 6 Destination : 17 Path : 6 -> 7 -> 14 -> 17  Cost :3
+SRC : 6 Destination : 17 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 11 -> 17  Cost :7
+SRC : 6 Destination : 18 Path : 6 -> 7 -> 14 -> 18  Cost :3
+SRC : 6 Destination : 18 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 11 -> 17 -> 18  Cost :8
+SRC : 6 Destination : 19 Path : 6 -> 7 -> 13 -> 19  Cost :3
+SRC : 6 Destination : 19 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 14 -> 19  Cost :7
+SRC : 6 Destination : 20 Path : 6 -> 7 -> 14 -> 18 -> 20  Cost :4
+SRC : 6 Destination : 20 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 14 -> 19 -> 20  Cost :8
+SRC : 6 Destination : 21 Path : 6 -> 7 -> 14 -> 18 -> 21  Cost :4
+SRC : 6 Destination : 21 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 14 -> 19 -> 20 -> 21  Cost :9
+SRC : 6 Destination : 22 Path : 6 -> 7 -> 14 -> 17 -> 22  Cost :4
+SRC : 6 Destination : 22 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 14 -> 18 -> 22  Cost :8
+SRC : 6 Destination : 23 Path : 6 -> 7 -> 14 -> 17 -> 23  Cost :4
+SRC : 6 Destination : 23 Path : 6 -> 5 -> 4 -> 3 -> 2 -> 8 -> 14 -> 18 -> 23  Cost :8
+SRC : 7 Destination : 0 Path : 7 -> 8 -> 0  Cost :2
+SRC : 7 Destination : 0 Path : 7 -> 14 -> 8 -> 9 -> 0  Cost :4
+SRC : 7 Destination : 1 Path : 7 -> 8 -> 0 -> 1  Cost :3
+SRC : 7 Destination : 1 Path : 7 -> 14 -> 8 -> 2 -> 1  Cost :4
+SRC : 7 Destination : 2 Path : 7 -> 8 -> 2  Cost :2
+SRC : 7 Destination : 2 Path : 7 -> 14 -> 8 -> 0 -> 1 -> 2  Cost :5
+SRC : 7 Destination : 3 Path : 7 -> 8 -> 2 -> 3  Cost :3
+SRC : 7 Destination : 3 Path : 7 -> 6 -> 5 -> 4 -> 3  Cost :4
+SRC : 7 Destination : 4 Path : 7 -> 6 -> 5 -> 4  Cost :3
+SRC : 7 Destination : 4 Path : 7 -> 8 -> 2 -> 3 -> 4  Cost :4
+SRC : 7 Destination : 5 Path : 7 -> 6 -> 5  Cost :2
+SRC : 7 Destination : 5 Path : 7 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :5
+SRC : 7 Destination : 6 Path : 7 -> 6  Cost :1
+SRC : 7 Destination : 6 Path : 7 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :6
+SRC : 7 Destination : 8 Path : 7 -> 8  Cost :1
+SRC : 7 Destination : 8 Path : 7 -> 14 -> 8  Cost :2
+SRC : 7 Destination : 9 Path : 7 -> 8 -> 9  Cost :2
+SRC : 7 Destination : 9 Path : 7 -> 13 -> 12 -> 9  Cost :3
+SRC : 7 Destination : 10 Path : 7 -> 8 -> 9 -> 10  Cost :3
+SRC : 7 Destination : 10 Path : 7 -> 14 -> 8 -> 11 -> 10  Cost :4
+SRC : 7 Destination : 11 Path : 7 -> 8 -> 11  Cost :2
+SRC : 7 Destination : 11 Path : 7 -> 13 -> 12 -> 11  Cost :3
+SRC : 7 Destination : 12 Path : 7 -> 8 -> 12  Cost :2
+SRC : 7 Destination : 12 Path : 7 -> 13 -> 12  Cost :2
+SRC : 7 Destination : 13 Path : 7 -> 13  Cost :1
+SRC : 7 Destination : 13 Path : 7 -> 14 -> 13  Cost :2
+SRC : 7 Destination : 14 Path : 7 -> 14  Cost :1
+SRC : 7 Destination : 14 Path : 7 -> 8 -> 14  Cost :2
+SRC : 7 Destination : 15 Path : 7 -> 14 -> 17 -> 15  Cost :3
+SRC : 7 Destination : 15 Path : 7 -> 8 -> 9 -> 10 -> 15  Cost :4
+SRC : 7 Destination : 16 Path : 7 -> 14 -> 17 -> 16  Cost :3
+SRC : 7 Destination : 16 Path : 7 -> 8 -> 9 -> 10 -> 15 -> 16  Cost :5
+SRC : 7 Destination : 17 Path : 7 -> 14 -> 17  Cost :2
+SRC : 7 Destination : 17 Path : 7 -> 8 -> 11 -> 17  Cost :3
+SRC : 7 Destination : 18 Path : 7 -> 14 -> 18  Cost :2
+SRC : 7 Destination : 18 Path : 7 -> 13 -> 19 -> 18  Cost :3
+SRC : 7 Destination : 19 Path : 7 -> 13 -> 19  Cost :2
+SRC : 7 Destination : 19 Path : 7 -> 14 -> 19  Cost :2
+SRC : 7 Destination : 20 Path : 7 -> 14 -> 18 -> 20  Cost :3
+SRC : 7 Destination : 20 Path : 7 -> 13 -> 19 -> 20  Cost :3
+SRC : 7 Destination : 21 Path : 7 -> 14 -> 18 -> 21  Cost :3
+SRC : 7 Destination : 21 Path : 7 -> 13 -> 19 -> 20 -> 21  Cost :4
+SRC : 7 Destination : 22 Path : 7 -> 14 -> 17 -> 22  Cost :3
+SRC : 7 Destination : 22 Path : 7 -> 8 -> 14 -> 18 -> 22  Cost :4
+SRC : 7 Destination : 23 Path : 7 -> 14 -> 17 -> 23  Cost :3
+SRC : 7 Destination : 23 Path : 7 -> 8 -> 14 -> 18 -> 23  Cost :4
+SRC : 8 Destination : 0 Path : 8 -> 0  Cost :1
+SRC : 8 Destination : 0 Path : 8 -> 9 -> 0  Cost :2
+SRC : 8 Destination : 1 Path : 8 -> 0 -> 1  Cost :2
+SRC : 8 Destination : 1 Path : 8 -> 2 -> 1  Cost :2
+SRC : 8 Destination : 2 Path : 8 -> 2  Cost :1
+SRC : 8 Destination : 2 Path : 8 -> 0 -> 1 -> 2  Cost :3
+SRC : 8 Destination : 3 Path : 8 -> 2 -> 3  Cost :2
+SRC : 8 Destination : 3 Path : 8 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :5
+SRC : 8 Destination : 4 Path : 8 -> 2 -> 3 -> 4  Cost :3
+SRC : 8 Destination : 4 Path : 8 -> 7 -> 6 -> 5 -> 4  Cost :4
+SRC : 8 Destination : 5 Path : 8 -> 7 -> 6 -> 5  Cost :3
+SRC : 8 Destination : 5 Path : 8 -> 2 -> 3 -> 4 -> 5  Cost :4
+SRC : 8 Destination : 6 Path : 8 -> 7 -> 6  Cost :2
+SRC : 8 Destination : 6 Path : 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :5
+SRC : 8 Destination : 7 Path : 8 -> 7  Cost :1
+SRC : 8 Destination : 7 Path : 8 -> 14 -> 7  Cost :2
+SRC : 8 Destination : 9 Path : 8 -> 9  Cost :1
+SRC : 8 Destination : 9 Path : 8 -> 0 -> 9  Cost :2
+SRC : 8 Destination : 10 Path : 8 -> 9 -> 10  Cost :2
+SRC : 8 Destination : 10 Path : 8 -> 11 -> 10  Cost :2
+SRC : 8 Destination : 11 Path : 8 -> 11  Cost :1
+SRC : 8 Destination : 11 Path : 8 -> 12 -> 11  Cost :2
+SRC : 8 Destination : 12 Path : 8 -> 12  Cost :1
+SRC : 8 Destination : 12 Path : 8 -> 9 -> 12  Cost :2
+SRC : 8 Destination : 13 Path : 8 -> 7 -> 13  Cost :2
+SRC : 8 Destination : 13 Path : 8 -> 12 -> 13  Cost :2
+SRC : 8 Destination : 14 Path : 8 -> 14  Cost :1
+SRC : 8 Destination : 14 Path : 8 -> 7 -> 14  Cost :2
+SRC : 8 Destination : 15 Path : 8 -> 9 -> 10 -> 15  Cost :3
+SRC : 8 Destination : 15 Path : 8 -> 11 -> 17 -> 15  Cost :3
+SRC : 8 Destination : 16 Path : 8 -> 11 -> 17 -> 16  Cost :3
+SRC : 8 Destination : 16 Path : 8 -> 9 -> 10 -> 15 -> 16  Cost :4
+SRC : 8 Destination : 17 Path : 8 -> 11 -> 17  Cost :2
+SRC : 8 Destination : 17 Path : 8 -> 12 -> 17  Cost :2
+SRC : 8 Destination : 18 Path : 8 -> 14 -> 18  Cost :2
+SRC : 8 Destination : 18 Path : 8 -> 11 -> 17 -> 18  Cost :3
+SRC : 8 Destination : 19 Path : 8 -> 14 -> 19  Cost :2
+SRC : 8 Destination : 19 Path : 8 -> 7 -> 13 -> 19  Cost :3
+SRC : 8 Destination : 20 Path : 8 -> 14 -> 18 -> 20  Cost :3
+SRC : 8 Destination : 20 Path : 8 -> 7 -> 13 -> 19 -> 20  Cost :4
+SRC : 8 Destination : 21 Path : 8 -> 14 -> 18 -> 21  Cost :3
+SRC : 8 Destination : 21 Path : 8 -> 11 -> 17 -> 22 -> 21  Cost :4
+SRC : 8 Destination : 22 Path : 8 -> 11 -> 17 -> 22  Cost :3
+SRC : 8 Destination : 22 Path : 8 -> 14 -> 18 -> 22  Cost :3
+SRC : 8 Destination : 23 Path : 8 -> 11 -> 17 -> 23  Cost :3
+SRC : 8 Destination : 23 Path : 8 -> 14 -> 18 -> 23  Cost :3
+SRC : 9 Destination : 0 Path : 9 -> 0  Cost :1
+SRC : 9 Destination : 0 Path : 9 -> 8 -> 0  Cost :2
+SRC : 9 Destination : 1 Path : 9 -> 0 -> 1  Cost :2
+SRC : 9 Destination : 1 Path : 9 -> 8 -> 2 -> 1  Cost :3
+SRC : 9 Destination : 2 Path : 9 -> 8 -> 2  Cost :2
+SRC : 9 Destination : 2 Path : 9 -> 0 -> 1 -> 2  Cost :3
+SRC : 9 Destination : 3 Path : 9 -> 8 -> 2 -> 3  Cost :3
+SRC : 9 Destination : 3 Path : 9 -> 0 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :7
+SRC : 9 Destination : 4 Path : 9 -> 8 -> 2 -> 3 -> 4  Cost :4
+SRC : 9 Destination : 4 Path : 9 -> 0 -> 8 -> 7 -> 6 -> 5 -> 4  Cost :6
+SRC : 9 Destination : 5 Path : 9 -> 8 -> 7 -> 6 -> 5  Cost :4
+SRC : 9 Destination : 5 Path : 9 -> 0 -> 1 -> 2 -> 3 -> 4 -> 5  Cost :6
+SRC : 9 Destination : 6 Path : 9 -> 8 -> 7 -> 6  Cost :3
+SRC : 9 Destination : 6 Path : 9 -> 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :7
+SRC : 9 Destination : 7 Path : 9 -> 8 -> 7  Cost :2
+SRC : 9 Destination : 7 Path : 9 -> 12 -> 13 -> 7  Cost :3
+SRC : 9 Destination : 8 Path : 9 -> 8  Cost :1
+SRC : 9 Destination : 8 Path : 9 -> 0 -> 8  Cost :2
+SRC : 9 Destination : 10 Path : 9 -> 10  Cost :1
+SRC : 9 Destination : 10 Path : 9 -> 8 -> 11 -> 10  Cost :3
+SRC : 9 Destination : 11 Path : 9 -> 8 -> 11  Cost :2
+SRC : 9 Destination : 11 Path : 9 -> 10 -> 11  Cost :2
+SRC : 9 Destination : 12 Path : 9 -> 12  Cost :1
+SRC : 9 Destination : 12 Path : 9 -> 8 -> 12  Cost :2
+SRC : 9 Destination : 13 Path : 9 -> 12 -> 13  Cost :2
+SRC : 9 Destination : 13 Path : 9 -> 8 -> 7 -> 13  Cost :3
+SRC : 9 Destination : 14 Path : 9 -> 8 -> 14  Cost :2
+SRC : 9 Destination : 14 Path : 9 -> 12 -> 14  Cost :2
+SRC : 9 Destination : 15 Path : 9 -> 10 -> 15  Cost :2
+SRC : 9 Destination : 15 Path : 9 -> 12 -> 17 -> 15  Cost :3
+SRC : 9 Destination : 16 Path : 9 -> 10 -> 15 -> 16  Cost :3
+SRC : 9 Destination : 16 Path : 9 -> 12 -> 17 -> 16  Cost :3
+SRC : 9 Destination : 17 Path : 9 -> 12 -> 17  Cost :2
+SRC : 9 Destination : 17 Path : 9 -> 8 -> 11 -> 17  Cost :3
+SRC : 9 Destination : 18 Path : 9 -> 8 -> 14 -> 18  Cost :3
+SRC : 9 Destination : 18 Path : 9 -> 10 -> 15 -> 18  Cost :3
+SRC : 9 Destination : 19 Path : 9 -> 12 -> 13 -> 19  Cost :3
+SRC : 9 Destination : 19 Path : 9 -> 8 -> 14 -> 19  Cost :3
+SRC : 9 Destination : 20 Path : 9 -> 8 -> 14 -> 18 -> 20  Cost :4
+SRC : 9 Destination : 20 Path : 9 -> 12 -> 13 -> 19 -> 20  Cost :4
+SRC : 9 Destination : 21 Path : 9 -> 8 -> 14 -> 18 -> 21  Cost :4
+SRC : 9 Destination : 21 Path : 9 -> 12 -> 17 -> 22 -> 21  Cost :4
+SRC : 9 Destination : 22 Path : 9 -> 12 -> 17 -> 22  Cost :3
+SRC : 9 Destination : 22 Path : 9 -> 8 -> 14 -> 18 -> 22  Cost :4
+SRC : 9 Destination : 23 Path : 9 -> 12 -> 17 -> 23  Cost :3
+SRC : 9 Destination : 23 Path : 9 -> 10 -> 15 -> 16 -> 23  Cost :4
+SRC : 10 Destination : 0 Path : 10 -> 9 -> 0  Cost :2
+SRC : 10 Destination : 0 Path : 10 -> 11 -> 8 -> 0  Cost :3
+SRC : 10 Destination : 1 Path : 10 -> 9 -> 0 -> 1  Cost :3
+SRC : 10 Destination : 1 Path : 10 -> 11 -> 8 -> 2 -> 1  Cost :4
+SRC : 10 Destination : 2 Path : 10 -> 9 -> 8 -> 2  Cost :3
+SRC : 10 Destination : 2 Path : 10 -> 11 -> 8 -> 0 -> 1 -> 2  Cost :5
+SRC : 10 Destination : 3 Path : 10 -> 9 -> 8 -> 2 -> 3  Cost :4
+SRC : 10 Destination : 3 Path : 10 -> 11 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :7
+SRC : 10 Destination : 4 Path : 10 -> 9 -> 8 -> 2 -> 3 -> 4  Cost :5
+SRC : 10 Destination : 4 Path : 10 -> 11 -> 8 -> 7 -> 6 -> 5 -> 4  Cost :6
+SRC : 10 Destination : 5 Path : 10 -> 9 -> 8 -> 7 -> 6 -> 5  Cost :5
+SRC : 10 Destination : 5 Path : 10 -> 11 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :6
+SRC : 10 Destination : 6 Path : 10 -> 9 -> 8 -> 7 -> 6  Cost :4
+SRC : 10 Destination : 6 Path : 10 -> 11 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :7
+SRC : 10 Destination : 7 Path : 10 -> 9 -> 8 -> 7  Cost :3
+SRC : 10 Destination : 7 Path : 10 -> 11 -> 12 -> 13 -> 7  Cost :4
+SRC : 10 Destination : 8 Path : 10 -> 9 -> 8  Cost :2
+SRC : 10 Destination : 8 Path : 10 -> 11 -> 8  Cost :2
+SRC : 10 Destination : 9 Path : 10 -> 9  Cost :1
+SRC : 10 Destination : 9 Path : 10 -> 11 -> 8 -> 9  Cost :3
+SRC : 10 Destination : 11 Path : 10 -> 11  Cost :1
+SRC : 10 Destination : 11 Path : 10 -> 9 -> 8 -> 11  Cost :3
+SRC : 10 Destination : 12 Path : 10 -> 9 -> 12  Cost :2
+SRC : 10 Destination : 12 Path : 10 -> 11 -> 12  Cost :2
+SRC : 10 Destination : 13 Path : 10 -> 9 -> 12 -> 13  Cost :3
+SRC : 10 Destination : 13 Path : 10 -> 11 -> 8 -> 7 -> 13  Cost :4
+SRC : 10 Destination : 14 Path : 10 -> 9 -> 8 -> 14  Cost :3
+SRC : 10 Destination : 14 Path : 10 -> 11 -> 12 -> 14  Cost :3
+SRC : 10 Destination : 15 Path : 10 -> 15  Cost :1
+SRC : 10 Destination : 15 Path : 10 -> 11 -> 17 -> 15  Cost :3
+SRC : 10 Destination : 16 Path : 10 -> 15 -> 16  Cost :2
+SRC : 10 Destination : 16 Path : 10 -> 11 -> 17 -> 16  Cost :3
+SRC : 10 Destination : 17 Path : 10 -> 11 -> 17  Cost :2
+SRC : 10 Destination : 17 Path : 10 -> 15 -> 17  Cost :2
+SRC : 10 Destination : 18 Path : 10 -> 15 -> 18  Cost :2
+SRC : 10 Destination : 18 Path : 10 -> 11 -> 17 -> 18  Cost :3
+SRC : 10 Destination : 19 Path : 10 -> 15 -> 18 -> 19  Cost :3
+SRC : 10 Destination : 19 Path : 10 -> 9 -> 12 -> 13 -> 19  Cost :4
+SRC : 10 Destination : 20 Path : 10 -> 15 -> 18 -> 20  Cost :3
+SRC : 10 Destination : 20 Path : 10 -> 9 -> 12 -> 13 -> 19 -> 20  Cost :5
+SRC : 10 Destination : 21 Path : 10 -> 15 -> 18 -> 21  Cost :3
+SRC : 10 Destination : 21 Path : 10 -> 11 -> 17 -> 22 -> 21  Cost :4
+SRC : 10 Destination : 22 Path : 10 -> 11 -> 17 -> 22  Cost :3
+SRC : 10 Destination : 22 Path : 10 -> 15 -> 18 -> 22  Cost :3
+SRC : 10 Destination : 23 Path : 10 -> 15 -> 16 -> 23  Cost :3
+SRC : 10 Destination : 23 Path : 10 -> 11 -> 17 -> 23  Cost :3
+SRC : 11 Destination : 0 Path : 11 -> 8 -> 0  Cost :2
+SRC : 11 Destination : 0 Path : 11 -> 10 -> 9 -> 0  Cost :3
+SRC : 11 Destination : 1 Path : 11 -> 8 -> 0 -> 1  Cost :3
+SRC : 11 Destination : 1 Path : 11 -> 12 -> 8 -> 2 -> 1  Cost :4
+SRC : 11 Destination : 2 Path : 11 -> 8 -> 2  Cost :2
+SRC : 11 Destination : 2 Path : 11 -> 12 -> 8 -> 0 -> 1 -> 2  Cost :5
+SRC : 11 Destination : 3 Path : 11 -> 8 -> 2 -> 3  Cost :3
+SRC : 11 Destination : 3 Path : 11 -> 12 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :7
+SRC : 11 Destination : 4 Path : 11 -> 8 -> 2 -> 3 -> 4  Cost :4
+SRC : 11 Destination : 4 Path : 11 -> 12 -> 8 -> 7 -> 6 -> 5 -> 4  Cost :6
+SRC : 11 Destination : 5 Path : 11 -> 8 -> 7 -> 6 -> 5  Cost :4
+SRC : 11 Destination : 5 Path : 11 -> 12 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :6
+SRC : 11 Destination : 6 Path : 11 -> 8 -> 7 -> 6  Cost :3
+SRC : 11 Destination : 6 Path : 11 -> 12 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :7
+SRC : 11 Destination : 7 Path : 11 -> 8 -> 7  Cost :2
+SRC : 11 Destination : 7 Path : 11 -> 12 -> 13 -> 7  Cost :3
+SRC : 11 Destination : 8 Path : 11 -> 8  Cost :1
+SRC : 11 Destination : 8 Path : 11 -> 12 -> 8  Cost :2
+SRC : 11 Destination : 9 Path : 11 -> 8 -> 9  Cost :2
+SRC : 11 Destination : 9 Path : 11 -> 10 -> 9  Cost :2
+SRC : 11 Destination : 10 Path : 11 -> 10  Cost :1
+SRC : 11 Destination : 10 Path : 11 -> 8 -> 9 -> 10  Cost :3
+SRC : 11 Destination : 12 Path : 11 -> 12  Cost :1
+SRC : 11 Destination : 12 Path : 11 -> 8 -> 12  Cost :2
+SRC : 11 Destination : 13 Path : 11 -> 12 -> 13  Cost :2
+SRC : 11 Destination : 13 Path : 11 -> 8 -> 7 -> 13  Cost :3
+SRC : 11 Destination : 14 Path : 11 -> 8 -> 14  Cost :2
+SRC : 11 Destination : 14 Path : 11 -> 12 -> 14  Cost :2
+SRC : 11 Destination : 15 Path : 11 -> 10 -> 15  Cost :2
+SRC : 11 Destination : 15 Path : 11 -> 17 -> 15  Cost :2
+SRC : 11 Destination : 16 Path : 11 -> 17 -> 16  Cost :2
+SRC : 11 Destination : 16 Path : 11 -> 10 -> 15 -> 16  Cost :3
+SRC : 11 Destination : 17 Path : 11 -> 17  Cost :1
+SRC : 11 Destination : 17 Path : 11 -> 12 -> 17  Cost :2
+SRC : 11 Destination : 18 Path : 11 -> 17 -> 18  Cost :2
+SRC : 11 Destination : 18 Path : 11 -> 8 -> 14 -> 18  Cost :3
+SRC : 11 Destination : 19 Path : 11 -> 12 -> 13 -> 19  Cost :3
+SRC : 11 Destination : 19 Path : 11 -> 8 -> 14 -> 19  Cost :3
+SRC : 11 Destination : 20 Path : 11 -> 17 -> 18 -> 20  Cost :3
+SRC : 11 Destination : 20 Path : 11 -> 12 -> 13 -> 19 -> 20  Cost :4
+SRC : 11 Destination : 21 Path : 11 -> 17 -> 18 -> 21  Cost :3
+SRC : 11 Destination : 21 Path : 11 -> 12 -> 17 -> 22 -> 21  Cost :4
+SRC : 11 Destination : 22 Path : 11 -> 17 -> 22  Cost :2
+SRC : 11 Destination : 22 Path : 11 -> 8 -> 14 -> 18 -> 22  Cost :4
+SRC : 11 Destination : 23 Path : 11 -> 17 -> 23  Cost :2
+SRC : 11 Destination : 23 Path : 11 -> 10 -> 15 -> 16 -> 23  Cost :4
+SRC : 12 Destination : 0 Path : 12 -> 8 -> 0  Cost :2
+SRC : 12 Destination : 0 Path : 12 -> 9 -> 0  Cost :2
+SRC : 12 Destination : 1 Path : 12 -> 8 -> 0 -> 1  Cost :3
+SRC : 12 Destination : 1 Path : 12 -> 9 -> 8 -> 2 -> 1  Cost :4
+SRC : 12 Destination : 2 Path : 12 -> 8 -> 2  Cost :2
+SRC : 12 Destination : 2 Path : 12 -> 9 -> 0 -> 1 -> 2  Cost :4
+SRC : 12 Destination : 3 Path : 12 -> 8 -> 2 -> 3  Cost :3
+SRC : 12 Destination : 3 Path : 12 -> 13 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :6
+SRC : 12 Destination : 4 Path : 12 -> 8 -> 2 -> 3 -> 4  Cost :4
+SRC : 12 Destination : 4 Path : 12 -> 13 -> 7 -> 6 -> 5 -> 4  Cost :5
+SRC : 12 Destination : 5 Path : 12 -> 8 -> 7 -> 6 -> 5  Cost :4
+SRC : 12 Destination : 5 Path : 12 -> 9 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :6
+SRC : 12 Destination : 6 Path : 12 -> 8 -> 7 -> 6  Cost :3
+SRC : 12 Destination : 6 Path : 12 -> 9 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :7
+SRC : 12 Destination : 7 Path : 12 -> 8 -> 7  Cost :2
+SRC : 12 Destination : 7 Path : 12 -> 13 -> 7  Cost :2
+SRC : 12 Destination : 8 Path : 12 -> 8  Cost :1
+SRC : 12 Destination : 8 Path : 12 -> 9 -> 8  Cost :2
+SRC : 12 Destination : 9 Path : 12 -> 9  Cost :1
+SRC : 12 Destination : 9 Path : 12 -> 8 -> 9  Cost :2
+SRC : 12 Destination : 10 Path : 12 -> 9 -> 10  Cost :2
+SRC : 12 Destination : 10 Path : 12 -> 11 -> 10  Cost :2
+SRC : 12 Destination : 11 Path : 12 -> 11  Cost :1
+SRC : 12 Destination : 11 Path : 12 -> 8 -> 11  Cost :2
+SRC : 12 Destination : 13 Path : 12 -> 13  Cost :1
+SRC : 12 Destination : 13 Path : 12 -> 14 -> 13  Cost :2
+SRC : 12 Destination : 14 Path : 12 -> 14  Cost :1
+SRC : 12 Destination : 14 Path : 12 -> 8 -> 14  Cost :2
+SRC : 12 Destination : 15 Path : 12 -> 17 -> 15  Cost :2
+SRC : 12 Destination : 15 Path : 12 -> 9 -> 10 -> 15  Cost :3
+SRC : 12 Destination : 16 Path : 12 -> 17 -> 16  Cost :2
+SRC : 12 Destination : 16 Path : 12 -> 9 -> 10 -> 15 -> 16  Cost :4
+SRC : 12 Destination : 17 Path : 12 -> 17  Cost :1
+SRC : 12 Destination : 17 Path : 12 -> 11 -> 17  Cost :2
+SRC : 12 Destination : 18 Path : 12 -> 14 -> 18  Cost :2
+SRC : 12 Destination : 18 Path : 12 -> 17 -> 18  Cost :2
+SRC : 12 Destination : 19 Path : 12 -> 13 -> 19  Cost :2
+SRC : 12 Destination : 19 Path : 12 -> 14 -> 19  Cost :2
+SRC : 12 Destination : 20 Path : 12 -> 14 -> 18 -> 20  Cost :3
+SRC : 12 Destination : 20 Path : 12 -> 13 -> 19 -> 20  Cost :3
+SRC : 12 Destination : 21 Path : 12 -> 14 -> 18 -> 21  Cost :3
+SRC : 12 Destination : 21 Path : 12 -> 17 -> 22 -> 21  Cost :3
+SRC : 12 Destination : 22 Path : 12 -> 17 -> 22  Cost :2
+SRC : 12 Destination : 22 Path : 12 -> 14 -> 18 -> 22  Cost :3
+SRC : 12 Destination : 23 Path : 12 -> 17 -> 23  Cost :2
+SRC : 12 Destination : 23 Path : 12 -> 14 -> 18 -> 23  Cost :3
+SRC : 13 Destination : 0 Path : 13 -> 7 -> 8 -> 0  Cost :3
+SRC : 13 Destination : 0 Path : 13 -> 12 -> 9 -> 0  Cost :3
+SRC : 13 Destination : 1 Path : 13 -> 7 -> 8 -> 0 -> 1  Cost :4
+SRC : 13 Destination : 1 Path : 13 -> 12 -> 8 -> 2 -> 1  Cost :4
+SRC : 13 Destination : 2 Path : 13 -> 7 -> 8 -> 2  Cost :3
+SRC : 13 Destination : 2 Path : 13 -> 12 -> 8 -> 0 -> 1 -> 2  Cost :5
+SRC : 13 Destination : 3 Path : 13 -> 7 -> 8 -> 2 -> 3  Cost :4
+SRC : 13 Destination : 3 Path : 13 -> 14 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :6
+SRC : 13 Destination : 4 Path : 13 -> 7 -> 6 -> 5 -> 4  Cost :4
+SRC : 13 Destination : 4 Path : 13 -> 12 -> 8 -> 2 -> 3 -> 4  Cost :5
+SRC : 13 Destination : 5 Path : 13 -> 7 -> 6 -> 5  Cost :3
+SRC : 13 Destination : 5 Path : 13 -> 12 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :6
+SRC : 13 Destination : 6 Path : 13 -> 7 -> 6  Cost :2
+SRC : 13 Destination : 6 Path : 13 -> 12 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :7
+SRC : 13 Destination : 7 Path : 13 -> 7  Cost :1
+SRC : 13 Destination : 7 Path : 13 -> 14 -> 7  Cost :2
+SRC : 13 Destination : 8 Path : 13 -> 7 -> 8  Cost :2
+SRC : 13 Destination : 8 Path : 13 -> 12 -> 8  Cost :2
+SRC : 13 Destination : 9 Path : 13 -> 12 -> 9  Cost :2
+SRC : 13 Destination : 9 Path : 13 -> 7 -> 8 -> 9  Cost :3
+SRC : 13 Destination : 10 Path : 13 -> 12 -> 9 -> 10  Cost :3
+SRC : 13 Destination : 10 Path : 13 -> 7 -> 8 -> 11 -> 10  Cost :4
+SRC : 13 Destination : 11 Path : 13 -> 12 -> 11  Cost :2
+SRC : 13 Destination : 11 Path : 13 -> 7 -> 8 -> 11  Cost :3
+SRC : 13 Destination : 12 Path : 13 -> 12  Cost :1
+SRC : 13 Destination : 12 Path : 13 -> 14 -> 12  Cost :2
+SRC : 13 Destination : 14 Path : 13 -> 14  Cost :1
+SRC : 13 Destination : 14 Path : 13 -> 7 -> 14  Cost :2
+SRC : 13 Destination : 15 Path : 13 -> 12 -> 17 -> 15  Cost :3
+SRC : 13 Destination : 15 Path : 13 -> 14 -> 18 -> 15  Cost :3
+SRC : 13 Destination : 16 Path : 13 -> 12 -> 17 -> 16  Cost :3
+SRC : 13 Destination : 16 Path : 13 -> 14 -> 17 -> 15 -> 16  Cost :4
+SRC : 13 Destination : 17 Path : 13 -> 12 -> 17  Cost :2
+SRC : 13 Destination : 17 Path : 13 -> 14 -> 17  Cost :2
+SRC : 13 Destination : 18 Path : 13 -> 14 -> 18  Cost :2
+SRC : 13 Destination : 18 Path : 13 -> 19 -> 18  Cost :2
+SRC : 13 Destination : 19 Path : 13 -> 19  Cost :1
+SRC : 13 Destination : 19 Path : 13 -> 14 -> 19  Cost :2
+SRC : 13 Destination : 20 Path : 13 -> 19 -> 20  Cost :2
+SRC : 13 Destination : 20 Path : 13 -> 14 -> 18 -> 20  Cost :3
+SRC : 13 Destination : 21 Path : 13 -> 14 -> 18 -> 21  Cost :3
+SRC : 13 Destination : 21 Path : 13 -> 19 -> 20 -> 21  Cost :3
+SRC : 13 Destination : 22 Path : 13 -> 12 -> 17 -> 22  Cost :3
+SRC : 13 Destination : 22 Path : 13 -> 14 -> 18 -> 22  Cost :3
+SRC : 13 Destination : 23 Path : 13 -> 12 -> 17 -> 23  Cost :3
+SRC : 13 Destination : 23 Path : 13 -> 14 -> 18 -> 23  Cost :3
+SRC : 14 Destination : 0 Path : 14 -> 8 -> 0  Cost :2
+SRC : 14 Destination : 0 Path : 14 -> 12 -> 9 -> 0  Cost :3
+SRC : 14 Destination : 1 Path : 14 -> 8 -> 0 -> 1  Cost :3
+SRC : 14 Destination : 1 Path : 14 -> 7 -> 8 -> 2 -> 1  Cost :4
+SRC : 14 Destination : 2 Path : 14 -> 8 -> 2  Cost :2
+SRC : 14 Destination : 2 Path : 14 -> 7 -> 8 -> 0 -> 1 -> 2  Cost :5
+SRC : 14 Destination : 3 Path : 14 -> 8 -> 2 -> 3  Cost :3
+SRC : 14 Destination : 3 Path : 14 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :5
+SRC : 14 Destination : 4 Path : 14 -> 8 -> 2 -> 3 -> 4  Cost :4
+SRC : 14 Destination : 4 Path : 14 -> 7 -> 6 -> 5 -> 4  Cost :4
+SRC : 14 Destination : 5 Path : 14 -> 7 -> 6 -> 5  Cost :3
+SRC : 14 Destination : 5 Path : 14 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :5
+SRC : 14 Destination : 6 Path : 14 -> 7 -> 6  Cost :2
+SRC : 14 Destination : 6 Path : 14 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :6
+SRC : 14 Destination : 7 Path : 14 -> 7  Cost :1
+SRC : 14 Destination : 7 Path : 14 -> 8 -> 7  Cost :2
+SRC : 14 Destination : 8 Path : 14 -> 8  Cost :1
+SRC : 14 Destination : 8 Path : 14 -> 7 -> 8  Cost :2
+SRC : 14 Destination : 9 Path : 14 -> 8 -> 9  Cost :2
+SRC : 14 Destination : 9 Path : 14 -> 12 -> 9  Cost :2
+SRC : 14 Destination : 10 Path : 14 -> 8 -> 9 -> 10  Cost :3
+SRC : 14 Destination : 10 Path : 14 -> 12 -> 11 -> 10  Cost :3
+SRC : 14 Destination : 11 Path : 14 -> 8 -> 11  Cost :2
+SRC : 14 Destination : 11 Path : 14 -> 12 -> 11  Cost :2
+SRC : 14 Destination : 12 Path : 14 -> 12  Cost :1
+SRC : 14 Destination : 12 Path : 14 -> 8 -> 12  Cost :2
+SRC : 14 Destination : 13 Path : 14 -> 13  Cost :1
+SRC : 14 Destination : 13 Path : 14 -> 7 -> 13  Cost :2
+SRC : 14 Destination : 15 Path : 14 -> 17 -> 15  Cost :2
+SRC : 14 Destination : 15 Path : 14 -> 18 -> 15  Cost :2
+SRC : 14 Destination : 16 Path : 14 -> 17 -> 16  Cost :2
+SRC : 14 Destination : 16 Path : 14 -> 18 -> 15 -> 16  Cost :3
+SRC : 14 Destination : 17 Path : 14 -> 17  Cost :1
+SRC : 14 Destination : 17 Path : 14 -> 12 -> 17  Cost :2
+SRC : 14 Destination : 18 Path : 14 -> 18  Cost :1
+SRC : 14 Destination : 18 Path : 14 -> 17 -> 18  Cost :2
+SRC : 14 Destination : 19 Path : 14 -> 19  Cost :1
+SRC : 14 Destination : 19 Path : 14 -> 13 -> 19  Cost :2
+SRC : 14 Destination : 20 Path : 14 -> 18 -> 20  Cost :2
+SRC : 14 Destination : 20 Path : 14 -> 19 -> 20  Cost :2
+SRC : 14 Destination : 21 Path : 14 -> 18 -> 21  Cost :2
+SRC : 14 Destination : 21 Path : 14 -> 19 -> 20 -> 21  Cost :3
+SRC : 14 Destination : 22 Path : 14 -> 17 -> 22  Cost :2
+SRC : 14 Destination : 22 Path : 14 -> 18 -> 22  Cost :2
+SRC : 14 Destination : 23 Path : 14 -> 17 -> 23  Cost :2
+SRC : 14 Destination : 23 Path : 14 -> 18 -> 23  Cost :2
+SRC : 15 Destination : 0 Path : 15 -> 10 -> 9 -> 0  Cost :3
+SRC : 15 Destination : 0 Path : 15 -> 17 -> 11 -> 8 -> 0  Cost :4
+SRC : 15 Destination : 1 Path : 15 -> 10 -> 9 -> 0 -> 1  Cost :4
+SRC : 15 Destination : 1 Path : 15 -> 17 -> 11 -> 8 -> 2 -> 1  Cost :5
+SRC : 15 Destination : 2 Path : 15 -> 10 -> 9 -> 8 -> 2  Cost :4
+SRC : 15 Destination : 2 Path : 15 -> 17 -> 11 -> 8 -> 0 -> 1 -> 2  Cost :6
+SRC : 15 Destination : 3 Path : 15 -> 10 -> 9 -> 8 -> 2 -> 3  Cost :5
+SRC : 15 Destination : 3 Path : 15 -> 17 -> 14 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :7
+SRC : 15 Destination : 4 Path : 15 -> 10 -> 9 -> 8 -> 2 -> 3 -> 4  Cost :6
+SRC : 15 Destination : 4 Path : 15 -> 17 -> 14 -> 7 -> 6 -> 5 -> 4  Cost :6
+SRC : 15 Destination : 5 Path : 15 -> 17 -> 14 -> 7 -> 6 -> 5  Cost :5
+SRC : 15 Destination : 5 Path : 15 -> 10 -> 9 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :7
+SRC : 15 Destination : 6 Path : 15 -> 17 -> 14 -> 7 -> 6  Cost :4
+SRC : 15 Destination : 6 Path : 15 -> 10 -> 9 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :8
+SRC : 15 Destination : 7 Path : 15 -> 17 -> 14 -> 7  Cost :3
+SRC : 15 Destination : 7 Path : 15 -> 10 -> 9 -> 8 -> 7  Cost :4
+SRC : 15 Destination : 8 Path : 15 -> 10 -> 9 -> 8  Cost :3
+SRC : 15 Destination : 8 Path : 15 -> 17 -> 11 -> 8  Cost :3
+SRC : 15 Destination : 9 Path : 15 -> 10 -> 9  Cost :2
+SRC : 15 Destination : 9 Path : 15 -> 17 -> 12 -> 9  Cost :3
+SRC : 15 Destination : 10 Path : 15 -> 10  Cost :1
+SRC : 15 Destination : 10 Path : 15 -> 17 -> 11 -> 10  Cost :3
+SRC : 15 Destination : 11 Path : 15 -> 10 -> 11  Cost :2
+SRC : 15 Destination : 11 Path : 15 -> 17 -> 11  Cost :2
+SRC : 15 Destination : 12 Path : 15 -> 17 -> 12  Cost :2
+SRC : 15 Destination : 12 Path : 15 -> 10 -> 9 -> 12  Cost :3
+SRC : 15 Destination : 13 Path : 15 -> 17 -> 12 -> 13  Cost :3
+SRC : 15 Destination : 13 Path : 15 -> 18 -> 14 -> 13  Cost :3
+SRC : 15 Destination : 14 Path : 15 -> 17 -> 14  Cost :2
+SRC : 15 Destination : 14 Path : 15 -> 18 -> 14  Cost :2
+SRC : 15 Destination : 16 Path : 15 -> 16  Cost :1
+SRC : 15 Destination : 16 Path : 15 -> 17 -> 16  Cost :2
+SRC : 15 Destination : 17 Path : 15 -> 17  Cost :1
+SRC : 15 Destination : 17 Path : 15 -> 16 -> 17  Cost :2
+SRC : 15 Destination : 18 Path : 15 -> 18  Cost :1
+SRC : 15 Destination : 18 Path : 15 -> 17 -> 18  Cost :2
+SRC : 15 Destination : 19 Path : 15 -> 18 -> 19  Cost :2
+SRC : 15 Destination : 19 Path : 15 -> 17 -> 14 -> 19  Cost :3
+SRC : 15 Destination : 20 Path : 15 -> 18 -> 20  Cost :2
+SRC : 15 Destination : 20 Path : 15 -> 17 -> 14 -> 19 -> 20  Cost :4
+SRC : 15 Destination : 21 Path : 15 -> 18 -> 21  Cost :2
+SRC : 15 Destination : 21 Path : 15 -> 17 -> 22 -> 21  Cost :3
+SRC : 15 Destination : 22 Path : 15 -> 17 -> 22  Cost :2
+SRC : 15 Destination : 22 Path : 15 -> 18 -> 22  Cost :2
+SRC : 15 Destination : 23 Path : 15 -> 16 -> 23  Cost :2
+SRC : 15 Destination : 23 Path : 15 -> 17 -> 23  Cost :2
+SRC : 16 Destination : 0 Path : 16 -> 17 -> 11 -> 8 -> 0  Cost :4
+SRC : 16 Destination : 0 Path : 16 -> 15 -> 10 -> 9 -> 0  Cost :4
+SRC : 16 Destination : 1 Path : 16 -> 17 -> 11 -> 8 -> 0 -> 1  Cost :5
+SRC : 16 Destination : 1 Path : 16 -> 15 -> 10 -> 9 -> 8 -> 2 -> 1  Cost :6
+SRC : 16 Destination : 2 Path : 16 -> 17 -> 11 -> 8 -> 2  Cost :4
+SRC : 16 Destination : 2 Path : 16 -> 15 -> 10 -> 9 -> 0 -> 1 -> 2  Cost :6
+SRC : 16 Destination : 3 Path : 16 -> 17 -> 11 -> 8 -> 2 -> 3  Cost :5
+SRC : 16 Destination : 3 Path : 16 -> 15 -> 17 -> 14 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :8
+SRC : 16 Destination : 4 Path : 16 -> 17 -> 11 -> 8 -> 2 -> 3 -> 4  Cost :6
+SRC : 16 Destination : 4 Path : 16 -> 15 -> 17 -> 14 -> 7 -> 6 -> 5 -> 4  Cost :7
+SRC : 16 Destination : 5 Path : 16 -> 17 -> 14 -> 7 -> 6 -> 5  Cost :5
+SRC : 16 Destination : 5 Path : 16 -> 15 -> 10 -> 9 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :8
+SRC : 16 Destination : 6 Path : 16 -> 17 -> 14 -> 7 -> 6  Cost :4
+SRC : 16 Destination : 6 Path : 16 -> 15 -> 10 -> 9 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :9
+SRC : 16 Destination : 7 Path : 16 -> 17 -> 14 -> 7  Cost :3
+SRC : 16 Destination : 7 Path : 16 -> 15 -> 10 -> 9 -> 8 -> 7  Cost :5
+SRC : 16 Destination : 8 Path : 16 -> 17 -> 11 -> 8  Cost :3
+SRC : 16 Destination : 8 Path : 16 -> 15 -> 10 -> 9 -> 8  Cost :4
+SRC : 16 Destination : 9 Path : 16 -> 15 -> 10 -> 9  Cost :3
+SRC : 16 Destination : 9 Path : 16 -> 17 -> 12 -> 9  Cost :3
+SRC : 16 Destination : 10 Path : 16 -> 15 -> 10  Cost :2
+SRC : 16 Destination : 10 Path : 16 -> 17 -> 11 -> 10  Cost :3
+SRC : 16 Destination : 11 Path : 16 -> 17 -> 11  Cost :2
+SRC : 16 Destination : 11 Path : 16 -> 15 -> 10 -> 11  Cost :3
+SRC : 16 Destination : 12 Path : 16 -> 17 -> 12  Cost :2
+SRC : 16 Destination : 12 Path : 16 -> 15 -> 10 -> 9 -> 12  Cost :4
+SRC : 16 Destination : 13 Path : 16 -> 17 -> 12 -> 13  Cost :3
+SRC : 16 Destination : 13 Path : 16 -> 15 -> 17 -> 14 -> 13  Cost :4
+SRC : 16 Destination : 14 Path : 16 -> 17 -> 14  Cost :2
+SRC : 16 Destination : 14 Path : 16 -> 15 -> 18 -> 14  Cost :3
+SRC : 16 Destination : 15 Path : 16 -> 15  Cost :1
+SRC : 16 Destination : 15 Path : 16 -> 17 -> 15  Cost :2
+SRC : 16 Destination : 17 Path : 16 -> 17  Cost :1
+SRC : 16 Destination : 17 Path : 16 -> 15 -> 17  Cost :2
+SRC : 16 Destination : 18 Path : 16 -> 15 -> 18  Cost :2
+SRC : 16 Destination : 18 Path : 16 -> 17 -> 18  Cost :2
+SRC : 16 Destination : 19 Path : 16 -> 17 -> 14 -> 19  Cost :3
+SRC : 16 Destination : 19 Path : 16 -> 15 -> 18 -> 19  Cost :3
+SRC : 16 Destination : 20 Path : 16 -> 15 -> 18 -> 20  Cost :3
+SRC : 16 Destination : 20 Path : 16 -> 17 -> 14 -> 19 -> 20  Cost :4
+SRC : 16 Destination : 21 Path : 16 -> 15 -> 18 -> 21  Cost :3
+SRC : 16 Destination : 21 Path : 16 -> 17 -> 22 -> 21  Cost :3
+SRC : 16 Destination : 22 Path : 16 -> 17 -> 22  Cost :2
+SRC : 16 Destination : 22 Path : 16 -> 23 -> 22  Cost :2
+SRC : 16 Destination : 23 Path : 16 -> 23  Cost :1
+SRC : 16 Destination : 23 Path : 16 -> 17 -> 23  Cost :2
+SRC : 17 Destination : 0 Path : 17 -> 11 -> 8 -> 0  Cost :3
+SRC : 17 Destination : 0 Path : 17 -> 12 -> 9 -> 0  Cost :3
+SRC : 17 Destination : 1 Path : 17 -> 11 -> 8 -> 0 -> 1  Cost :4
+SRC : 17 Destination : 1 Path : 17 -> 12 -> 8 -> 2 -> 1  Cost :4
+SRC : 17 Destination : 2 Path : 17 -> 11 -> 8 -> 2  Cost :3
+SRC : 17 Destination : 2 Path : 17 -> 12 -> 8 -> 0 -> 1 -> 2  Cost :5
+SRC : 17 Destination : 3 Path : 17 -> 11 -> 8 -> 2 -> 3  Cost :4
+SRC : 17 Destination : 3 Path : 17 -> 14 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :6
+SRC : 17 Destination : 4 Path : 17 -> 11 -> 8 -> 2 -> 3 -> 4  Cost :5
+SRC : 17 Destination : 4 Path : 17 -> 14 -> 7 -> 6 -> 5 -> 4  Cost :5
+SRC : 17 Destination : 5 Path : 17 -> 14 -> 7 -> 6 -> 5  Cost :4
+SRC : 17 Destination : 5 Path : 17 -> 11 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :6
+SRC : 17 Destination : 6 Path : 17 -> 14 -> 7 -> 6  Cost :3
+SRC : 17 Destination : 6 Path : 17 -> 11 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :7
+SRC : 17 Destination : 7 Path : 17 -> 14 -> 7  Cost :2
+SRC : 17 Destination : 7 Path : 17 -> 11 -> 8 -> 7  Cost :3
+SRC : 17 Destination : 8 Path : 17 -> 11 -> 8  Cost :2
+SRC : 17 Destination : 8 Path : 17 -> 12 -> 8  Cost :2
+SRC : 17 Destination : 9 Path : 17 -> 12 -> 9  Cost :2
+SRC : 17 Destination : 9 Path : 17 -> 11 -> 8 -> 9  Cost :3
+SRC : 17 Destination : 10 Path : 17 -> 11 -> 10  Cost :2
+SRC : 17 Destination : 10 Path : 17 -> 15 -> 10  Cost :2
+SRC : 17 Destination : 11 Path : 17 -> 11  Cost :1
+SRC : 17 Destination : 11 Path : 17 -> 12 -> 11  Cost :2
+SRC : 17 Destination : 12 Path : 17 -> 12  Cost :1
+SRC : 17 Destination : 12 Path : 17 -> 11 -> 12  Cost :2
+SRC : 17 Destination : 13 Path : 17 -> 12 -> 13  Cost :2
+SRC : 17 Destination : 13 Path : 17 -> 14 -> 13  Cost :2
+SRC : 17 Destination : 14 Path : 17 -> 14  Cost :1
+SRC : 17 Destination : 14 Path : 17 -> 12 -> 14  Cost :2
+SRC : 17 Destination : 15 Path : 17 -> 15  Cost :1
+SRC : 17 Destination : 15 Path : 17 -> 16 -> 15  Cost :2
+SRC : 17 Destination : 16 Path : 17 -> 16  Cost :1
+SRC : 17 Destination : 16 Path : 17 -> 15 -> 16  Cost :2
+SRC : 17 Destination : 18 Path : 17 -> 18  Cost :1
+SRC : 17 Destination : 18 Path : 17 -> 14 -> 18  Cost :2
+SRC : 17 Destination : 19 Path : 17 -> 14 -> 19  Cost :2
+SRC : 17 Destination : 19 Path : 17 -> 18 -> 19  Cost :2
+SRC : 17 Destination : 20 Path : 17 -> 18 -> 20  Cost :2
+SRC : 17 Destination : 20 Path : 17 -> 14 -> 19 -> 20  Cost :3
+SRC : 17 Destination : 21 Path : 17 -> 18 -> 21  Cost :2
+SRC : 17 Destination : 21 Path : 17 -> 22 -> 21  Cost :2
+SRC : 17 Destination : 22 Path : 17 -> 22  Cost :1
+SRC : 17 Destination : 22 Path : 17 -> 18 -> 22  Cost :2
+SRC : 17 Destination : 23 Path : 17 -> 23  Cost :1
+SRC : 17 Destination : 23 Path : 17 -> 16 -> 23  Cost :2
+SRC : 18 Destination : 0 Path : 18 -> 14 -> 8 -> 0  Cost :3
+SRC : 18 Destination : 0 Path : 18 -> 15 -> 10 -> 9 -> 0  Cost :4
+SRC : 18 Destination : 1 Path : 18 -> 14 -> 8 -> 0 -> 1  Cost :4
+SRC : 18 Destination : 1 Path : 18 -> 17 -> 11 -> 8 -> 2 -> 1  Cost :5
+SRC : 18 Destination : 2 Path : 18 -> 14 -> 8 -> 2  Cost :3
+SRC : 18 Destination : 2 Path : 18 -> 17 -> 11 -> 8 -> 0 -> 1 -> 2  Cost :6
+SRC : 18 Destination : 3 Path : 18 -> 14 -> 8 -> 2 -> 3  Cost :4
+SRC : 18 Destination : 3 Path : 18 -> 19 -> 13 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :7
+SRC : 18 Destination : 4 Path : 18 -> 14 -> 8 -> 2 -> 3 -> 4  Cost :5
+SRC : 18 Destination : 4 Path : 18 -> 19 -> 13 -> 7 -> 6 -> 5 -> 4  Cost :6
+SRC : 18 Destination : 5 Path : 18 -> 14 -> 7 -> 6 -> 5  Cost :4
+SRC : 18 Destination : 5 Path : 18 -> 17 -> 11 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :7
+SRC : 18 Destination : 6 Path : 18 -> 14 -> 7 -> 6  Cost :3
+SRC : 18 Destination : 6 Path : 18 -> 17 -> 11 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :8
+SRC : 18 Destination : 7 Path : 18 -> 14 -> 7  Cost :2
+SRC : 18 Destination : 7 Path : 18 -> 19 -> 13 -> 7  Cost :3
+SRC : 18 Destination : 8 Path : 18 -> 14 -> 8  Cost :2
+SRC : 18 Destination : 8 Path : 18 -> 17 -> 11 -> 8  Cost :3
+SRC : 18 Destination : 9 Path : 18 -> 14 -> 8 -> 9  Cost :3
+SRC : 18 Destination : 9 Path : 18 -> 15 -> 10 -> 9  Cost :3
+SRC : 18 Destination : 10 Path : 18 -> 15 -> 10  Cost :2
+SRC : 18 Destination : 10 Path : 18 -> 17 -> 11 -> 10  Cost :3
+SRC : 18 Destination : 11 Path : 18 -> 17 -> 11  Cost :2
+SRC : 18 Destination : 11 Path : 18 -> 14 -> 8 -> 11  Cost :3
+SRC : 18 Destination : 12 Path : 18 -> 14 -> 12  Cost :2
+SRC : 18 Destination : 12 Path : 18 -> 17 -> 12  Cost :2
+SRC : 18 Destination : 13 Path : 18 -> 14 -> 13  Cost :2
+SRC : 18 Destination : 13 Path : 18 -> 19 -> 13  Cost :2
+SRC : 18 Destination : 14 Path : 18 -> 14  Cost :1
+SRC : 18 Destination : 14 Path : 18 -> 17 -> 14  Cost :2
+SRC : 18 Destination : 15 Path : 18 -> 15  Cost :1
+SRC : 18 Destination : 15 Path : 18 -> 17 -> 15  Cost :2
+SRC : 18 Destination : 16 Path : 18 -> 15 -> 16  Cost :2
+SRC : 18 Destination : 16 Path : 18 -> 17 -> 16  Cost :2
+SRC : 18 Destination : 17 Path : 18 -> 17  Cost :1
+SRC : 18 Destination : 17 Path : 18 -> 14 -> 17  Cost :2
+SRC : 18 Destination : 19 Path : 18 -> 19  Cost :1
+SRC : 18 Destination : 19 Path : 18 -> 14 -> 19  Cost :2
+SRC : 18 Destination : 20 Path : 18 -> 20  Cost :1
+SRC : 18 Destination : 20 Path : 18 -> 19 -> 20  Cost :2
+SRC : 18 Destination : 21 Path : 18 -> 21  Cost :1
+SRC : 18 Destination : 21 Path : 18 -> 20 -> 21  Cost :2
+SRC : 18 Destination : 22 Path : 18 -> 22  Cost :1
+SRC : 18 Destination : 22 Path : 18 -> 17 -> 22  Cost :2
+SRC : 18 Destination : 23 Path : 18 -> 23  Cost :1
+SRC : 18 Destination : 23 Path : 18 -> 17 -> 23  Cost :2
+SRC : 19 Destination : 0 Path : 19 -> 14 -> 8 -> 0  Cost :3
+SRC : 19 Destination : 0 Path : 19 -> 13 -> 12 -> 9 -> 0  Cost :4
+SRC : 19 Destination : 1 Path : 19 -> 14 -> 8 -> 0 -> 1  Cost :4
+SRC : 19 Destination : 1 Path : 19 -> 13 -> 7 -> 8 -> 2 -> 1  Cost :5
+SRC : 19 Destination : 2 Path : 19 -> 14 -> 8 -> 2  Cost :3
+SRC : 19 Destination : 2 Path : 19 -> 13 -> 7 -> 8 -> 0 -> 1 -> 2  Cost :6
+SRC : 19 Destination : 3 Path : 19 -> 14 -> 8 -> 2 -> 3  Cost :4
+SRC : 19 Destination : 3 Path : 19 -> 13 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :6
+SRC : 19 Destination : 4 Path : 19 -> 14 -> 8 -> 2 -> 3 -> 4  Cost :5
+SRC : 19 Destination : 4 Path : 19 -> 13 -> 7 -> 6 -> 5 -> 4  Cost :5
+SRC : 19 Destination : 5 Path : 19 -> 13 -> 7 -> 6 -> 5  Cost :4
+SRC : 19 Destination : 5 Path : 19 -> 14 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :6
+SRC : 19 Destination : 6 Path : 19 -> 13 -> 7 -> 6  Cost :3
+SRC : 19 Destination : 6 Path : 19 -> 14 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :7
+SRC : 19 Destination : 7 Path : 19 -> 13 -> 7  Cost :2
+SRC : 19 Destination : 7 Path : 19 -> 14 -> 7  Cost :2
+SRC : 19 Destination : 8 Path : 19 -> 14 -> 8  Cost :2
+SRC : 19 Destination : 8 Path : 19 -> 13 -> 7 -> 8  Cost :3
+SRC : 19 Destination : 9 Path : 19 -> 14 -> 8 -> 9  Cost :3
+SRC : 19 Destination : 9 Path : 19 -> 13 -> 12 -> 9  Cost :3
+SRC : 19 Destination : 10 Path : 19 -> 18 -> 15 -> 10  Cost :3
+SRC : 19 Destination : 10 Path : 19 -> 14 -> 8 -> 9 -> 10  Cost :4
+SRC : 19 Destination : 11 Path : 19 -> 14 -> 8 -> 11  Cost :3
+SRC : 19 Destination : 11 Path : 19 -> 13 -> 12 -> 11  Cost :3
+SRC : 19 Destination : 12 Path : 19 -> 13 -> 12  Cost :2
+SRC : 19 Destination : 12 Path : 19 -> 14 -> 12  Cost :2
+SRC : 19 Destination : 13 Path : 19 -> 13  Cost :1
+SRC : 19 Destination : 13 Path : 19 -> 14 -> 13  Cost :2
+SRC : 19 Destination : 14 Path : 19 -> 14  Cost :1
+SRC : 19 Destination : 14 Path : 19 -> 13 -> 14  Cost :2
+SRC : 19 Destination : 15 Path : 19 -> 18 -> 15  Cost :2
+SRC : 19 Destination : 15 Path : 19 -> 14 -> 17 -> 15  Cost :3
+SRC : 19 Destination : 16 Path : 19 -> 18 -> 15 -> 16  Cost :3
+SRC : 19 Destination : 16 Path : 19 -> 14 -> 17 -> 16  Cost :3
+SRC : 19 Destination : 17 Path : 19 -> 14 -> 17  Cost :2
+SRC : 19 Destination : 17 Path : 19 -> 18 -> 17  Cost :2
+SRC : 19 Destination : 18 Path : 19 -> 18  Cost :1
+SRC : 19 Destination : 18 Path : 19 -> 14 -> 18  Cost :2
+SRC : 19 Destination : 20 Path : 19 -> 20  Cost :1
+SRC : 19 Destination : 20 Path : 19 -> 18 -> 20  Cost :2
+SRC : 19 Destination : 21 Path : 19 -> 18 -> 21  Cost :2
+SRC : 19 Destination : 21 Path : 19 -> 20 -> 21  Cost :2
+SRC : 19 Destination : 22 Path : 19 -> 18 -> 22  Cost :2
+SRC : 19 Destination : 22 Path : 19 -> 14 -> 17 -> 22  Cost :3
+SRC : 19 Destination : 23 Path : 19 -> 18 -> 23  Cost :2
+SRC : 19 Destination : 23 Path : 19 -> 14 -> 17 -> 23  Cost :3
+SRC : 20 Destination : 0 Path : 20 -> 18 -> 14 -> 8 -> 0  Cost :4
+SRC : 20 Destination : 0 Path : 20 -> 19 -> 13 -> 12 -> 9 -> 0  Cost :5
+SRC : 20 Destination : 1 Path : 20 -> 18 -> 14 -> 8 -> 0 -> 1  Cost :5
+SRC : 20 Destination : 1 Path : 20 -> 19 -> 13 -> 7 -> 8 -> 2 -> 1  Cost :6
+SRC : 20 Destination : 2 Path : 20 -> 18 -> 14 -> 8 -> 2  Cost :4
+SRC : 20 Destination : 2 Path : 20 -> 19 -> 13 -> 7 -> 8 -> 0 -> 1 -> 2  Cost :7
+SRC : 20 Destination : 3 Path : 20 -> 18 -> 14 -> 8 -> 2 -> 3  Cost :5
+SRC : 20 Destination : 3 Path : 20 -> 19 -> 13 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :7
+SRC : 20 Destination : 4 Path : 20 -> 18 -> 14 -> 8 -> 2 -> 3 -> 4  Cost :6
+SRC : 20 Destination : 4 Path : 20 -> 19 -> 13 -> 7 -> 6 -> 5 -> 4  Cost :6
+SRC : 20 Destination : 5 Path : 20 -> 19 -> 13 -> 7 -> 6 -> 5  Cost :5
+SRC : 20 Destination : 5 Path : 20 -> 18 -> 14 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :7
+SRC : 20 Destination : 6 Path : 20 -> 19 -> 13 -> 7 -> 6  Cost :4
+SRC : 20 Destination : 6 Path : 20 -> 18 -> 14 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :8
+SRC : 20 Destination : 7 Path : 20 -> 19 -> 13 -> 7  Cost :3
+SRC : 20 Destination : 7 Path : 20 -> 18 -> 14 -> 7  Cost :3
+SRC : 20 Destination : 8 Path : 20 -> 18 -> 14 -> 8  Cost :3
+SRC : 20 Destination : 8 Path : 20 -> 19 -> 13 -> 7 -> 8  Cost :4
+SRC : 20 Destination : 9 Path : 20 -> 18 -> 14 -> 8 -> 9  Cost :4
+SRC : 20 Destination : 9 Path : 20 -> 19 -> 13 -> 12 -> 9  Cost :4
+SRC : 20 Destination : 10 Path : 20 -> 18 -> 15 -> 10  Cost :3
+SRC : 20 Destination : 10 Path : 20 -> 19 -> 14 -> 8 -> 9 -> 10  Cost :5
+SRC : 20 Destination : 11 Path : 20 -> 18 -> 17 -> 11  Cost :3
+SRC : 20 Destination : 11 Path : 20 -> 19 -> 14 -> 8 -> 11  Cost :4
+SRC : 20 Destination : 12 Path : 20 -> 19 -> 13 -> 12  Cost :3
+SRC : 20 Destination : 12 Path : 20 -> 18 -> 14 -> 12  Cost :3
+SRC : 20 Destination : 13 Path : 20 -> 19 -> 13  Cost :2
+SRC : 20 Destination : 13 Path : 20 -> 18 -> 14 -> 13  Cost :3
+SRC : 20 Destination : 14 Path : 20 -> 18 -> 14  Cost :2
+SRC : 20 Destination : 14 Path : 20 -> 19 -> 14  Cost :2
+SRC : 20 Destination : 15 Path : 20 -> 18 -> 15  Cost :2
+SRC : 20 Destination : 15 Path : 20 -> 19 -> 14 -> 17 -> 15  Cost :4
+SRC : 20 Destination : 16 Path : 20 -> 18 -> 15 -> 16  Cost :3
+SRC : 20 Destination : 16 Path : 20 -> 19 -> 14 -> 17 -> 16  Cost :4
+SRC : 20 Destination : 17 Path : 20 -> 18 -> 17  Cost :2
+SRC : 20 Destination : 17 Path : 20 -> 19 -> 14 -> 17  Cost :3
+SRC : 20 Destination : 18 Path : 20 -> 18  Cost :1
+SRC : 20 Destination : 18 Path : 20 -> 19 -> 18  Cost :2
+SRC : 20 Destination : 19 Path : 20 -> 19  Cost :1
+SRC : 20 Destination : 19 Path : 20 -> 18 -> 19  Cost :2
+SRC : 20 Destination : 21 Path : 20 -> 21  Cost :1
+SRC : 20 Destination : 21 Path : 20 -> 18 -> 21  Cost :2
+SRC : 20 Destination : 22 Path : 20 -> 18 -> 22  Cost :2
+SRC : 20 Destination : 22 Path : 20 -> 21 -> 22  Cost :2
+SRC : 20 Destination : 23 Path : 20 -> 18 -> 23  Cost :2
+SRC : 20 Destination : 23 Path : 20 -> 21 -> 22 -> 23  Cost :3
+SRC : 21 Destination : 0 Path : 21 -> 18 -> 14 -> 8 -> 0  Cost :4
+SRC : 21 Destination : 0 Path : 21 -> 22 -> 17 -> 12 -> 9 -> 0  Cost :5
+SRC : 21 Destination : 1 Path : 21 -> 18 -> 14 -> 8 -> 0 -> 1  Cost :5
+SRC : 21 Destination : 1 Path : 21 -> 22 -> 17 -> 11 -> 8 -> 2 -> 1  Cost :6
+SRC : 21 Destination : 2 Path : 21 -> 18 -> 14 -> 8 -> 2  Cost :4
+SRC : 21 Destination : 2 Path : 21 -> 22 -> 17 -> 11 -> 8 -> 0 -> 1 -> 2  Cost :7
+SRC : 21 Destination : 3 Path : 21 -> 18 -> 14 -> 8 -> 2 -> 3  Cost :5
+SRC : 21 Destination : 3 Path : 21 -> 20 -> 19 -> 13 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :8
+SRC : 21 Destination : 4 Path : 21 -> 18 -> 14 -> 8 -> 2 -> 3 -> 4  Cost :6
+SRC : 21 Destination : 4 Path : 21 -> 20 -> 19 -> 13 -> 7 -> 6 -> 5 -> 4  Cost :7
+SRC : 21 Destination : 5 Path : 21 -> 18 -> 14 -> 7 -> 6 -> 5  Cost :5
+SRC : 21 Destination : 5 Path : 21 -> 22 -> 17 -> 11 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :8
+SRC : 21 Destination : 6 Path : 21 -> 18 -> 14 -> 7 -> 6  Cost :4
+SRC : 21 Destination : 6 Path : 21 -> 22 -> 17 -> 11 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :9
+SRC : 21 Destination : 7 Path : 21 -> 18 -> 14 -> 7  Cost :3
+SRC : 21 Destination : 7 Path : 21 -> 20 -> 19 -> 13 -> 7  Cost :4
+SRC : 21 Destination : 8 Path : 21 -> 18 -> 14 -> 8  Cost :3
+SRC : 21 Destination : 8 Path : 21 -> 22 -> 17 -> 11 -> 8  Cost :4
+SRC : 21 Destination : 9 Path : 21 -> 18 -> 14 -> 8 -> 9  Cost :4
+SRC : 21 Destination : 9 Path : 21 -> 22 -> 17 -> 12 -> 9  Cost :4
+SRC : 21 Destination : 10 Path : 21 -> 18 -> 15 -> 10  Cost :3
+SRC : 21 Destination : 10 Path : 21 -> 22 -> 17 -> 11 -> 10  Cost :4
+SRC : 21 Destination : 11 Path : 21 -> 18 -> 17 -> 11  Cost :3
+SRC : 21 Destination : 11 Path : 21 -> 22 -> 17 -> 12 -> 11  Cost :4
+SRC : 21 Destination : 12 Path : 21 -> 18 -> 14 -> 12  Cost :3
+SRC : 21 Destination : 12 Path : 21 -> 22 -> 17 -> 12  Cost :3
+SRC : 21 Destination : 13 Path : 21 -> 18 -> 14 -> 13  Cost :3
+SRC : 21 Destination : 13 Path : 21 -> 20 -> 19 -> 13  Cost :3
+SRC : 21 Destination : 14 Path : 21 -> 18 -> 14  Cost :2
+SRC : 21 Destination : 14 Path : 21 -> 22 -> 17 -> 14  Cost :3
+SRC : 21 Destination : 15 Path : 21 -> 18 -> 15  Cost :2
+SRC : 21 Destination : 15 Path : 21 -> 22 -> 17 -> 15  Cost :3
+SRC : 21 Destination : 16 Path : 21 -> 18 -> 15 -> 16  Cost :3
+SRC : 21 Destination : 16 Path : 21 -> 22 -> 17 -> 16  Cost :3
+SRC : 21 Destination : 17 Path : 21 -> 18 -> 17  Cost :2
+SRC : 21 Destination : 17 Path : 21 -> 22 -> 17  Cost :2
+SRC : 21 Destination : 18 Path : 21 -> 18  Cost :1
+SRC : 21 Destination : 18 Path : 21 -> 20 -> 18  Cost :2
+SRC : 21 Destination : 19 Path : 21 -> 18 -> 19  Cost :2
+SRC : 21 Destination : 19 Path : 21 -> 20 -> 19  Cost :2
+SRC : 21 Destination : 20 Path : 21 -> 20  Cost :1
+SRC : 21 Destination : 20 Path : 21 -> 18 -> 20  Cost :2
+SRC : 21 Destination : 22 Path : 21 -> 22  Cost :1
+SRC : 21 Destination : 22 Path : 21 -> 18 -> 22  Cost :2
+SRC : 21 Destination : 23 Path : 21 -> 18 -> 23  Cost :2
+SRC : 21 Destination : 23 Path : 21 -> 22 -> 23  Cost :2
+SRC : 22 Destination : 0 Path : 22 -> 17 -> 11 -> 8 -> 0  Cost :4
+SRC : 22 Destination : 0 Path : 22 -> 18 -> 14 -> 8 -> 9 -> 0  Cost :5
+SRC : 22 Destination : 1 Path : 22 -> 17 -> 11 -> 8 -> 0 -> 1  Cost :5
+SRC : 22 Destination : 1 Path : 22 -> 18 -> 14 -> 8 -> 2 -> 1  Cost :5
+SRC : 22 Destination : 2 Path : 22 -> 17 -> 11 -> 8 -> 2  Cost :4
+SRC : 22 Destination : 2 Path : 22 -> 18 -> 14 -> 8 -> 0 -> 1 -> 2  Cost :6
+SRC : 22 Destination : 3 Path : 22 -> 17 -> 11 -> 8 -> 2 -> 3  Cost :5
+SRC : 22 Destination : 3 Path : 22 -> 18 -> 14 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :7
+SRC : 22 Destination : 4 Path : 22 -> 17 -> 11 -> 8 -> 2 -> 3 -> 4  Cost :6
+SRC : 22 Destination : 4 Path : 22 -> 18 -> 14 -> 7 -> 6 -> 5 -> 4  Cost :6
+SRC : 22 Destination : 5 Path : 22 -> 17 -> 14 -> 7 -> 6 -> 5  Cost :5
+SRC : 22 Destination : 5 Path : 22 -> 18 -> 14 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :7
+SRC : 22 Destination : 6 Path : 22 -> 17 -> 14 -> 7 -> 6  Cost :4
+SRC : 22 Destination : 6 Path : 22 -> 18 -> 14 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :8
+SRC : 22 Destination : 7 Path : 22 -> 17 -> 14 -> 7  Cost :3
+SRC : 22 Destination : 7 Path : 22 -> 18 -> 14 -> 8 -> 7  Cost :4
+SRC : 22 Destination : 8 Path : 22 -> 17 -> 11 -> 8  Cost :3
+SRC : 22 Destination : 8 Path : 22 -> 18 -> 14 -> 8  Cost :3
+SRC : 22 Destination : 9 Path : 22 -> 17 -> 12 -> 9  Cost :3
+SRC : 22 Destination : 9 Path : 22 -> 18 -> 14 -> 8 -> 9  Cost :4
+SRC : 22 Destination : 10 Path : 22 -> 17 -> 11 -> 10  Cost :3
+SRC : 22 Destination : 10 Path : 22 -> 18 -> 15 -> 10  Cost :3
+SRC : 22 Destination : 11 Path : 22 -> 17 -> 11  Cost :2
+SRC : 22 Destination : 11 Path : 22 -> 18 -> 14 -> 8 -> 11  Cost :4
+SRC : 22 Destination : 12 Path : 22 -> 17 -> 12  Cost :2
+SRC : 22 Destination : 12 Path : 22 -> 18 -> 14 -> 12  Cost :3
+SRC : 22 Destination : 13 Path : 22 -> 17 -> 12 -> 13  Cost :3
+SRC : 22 Destination : 13 Path : 22 -> 18 -> 14 -> 13  Cost :3
+SRC : 22 Destination : 14 Path : 22 -> 17 -> 14  Cost :2
+SRC : 22 Destination : 14 Path : 22 -> 18 -> 14  Cost :2
+SRC : 22 Destination : 15 Path : 22 -> 17 -> 15  Cost :2
+SRC : 22 Destination : 15 Path : 22 -> 18 -> 15  Cost :2
+SRC : 22 Destination : 16 Path : 22 -> 17 -> 16  Cost :2
+SRC : 22 Destination : 16 Path : 22 -> 23 -> 16  Cost :2
+SRC : 22 Destination : 17 Path : 22 -> 17  Cost :1
+SRC : 22 Destination : 17 Path : 22 -> 18 -> 17  Cost :2
+SRC : 22 Destination : 18 Path : 22 -> 18  Cost :1
+SRC : 22 Destination : 18 Path : 22 -> 17 -> 18  Cost :2
+SRC : 22 Destination : 19 Path : 22 -> 18 -> 19  Cost :2
+SRC : 22 Destination : 19 Path : 22 -> 17 -> 14 -> 19  Cost :3
+SRC : 22 Destination : 20 Path : 22 -> 18 -> 20  Cost :2
+SRC : 22 Destination : 20 Path : 22 -> 21 -> 20  Cost :2
+SRC : 22 Destination : 21 Path : 22 -> 21  Cost :1
+SRC : 22 Destination : 21 Path : 22 -> 18 -> 21  Cost :2
+SRC : 22 Destination : 23 Path : 22 -> 23  Cost :1
+SRC : 22 Destination : 23 Path : 22 -> 17 -> 23  Cost :2
+SRC : 23 Destination : 0 Path : 23 -> 17 -> 11 -> 8 -> 0  Cost :4
+SRC : 23 Destination : 0 Path : 23 -> 18 -> 14 -> 8 -> 9 -> 0  Cost :5
+SRC : 23 Destination : 1 Path : 23 -> 17 -> 11 -> 8 -> 0 -> 1  Cost :5
+SRC : 23 Destination : 1 Path : 23 -> 18 -> 14 -> 8 -> 2 -> 1  Cost :5
+SRC : 23 Destination : 2 Path : 23 -> 17 -> 11 -> 8 -> 2  Cost :4
+SRC : 23 Destination : 2 Path : 23 -> 18 -> 14 -> 8 -> 0 -> 1 -> 2  Cost :6
+SRC : 23 Destination : 3 Path : 23 -> 17 -> 11 -> 8 -> 2 -> 3  Cost :5
+SRC : 23 Destination : 3 Path : 23 -> 18 -> 14 -> 7 -> 6 -> 5 -> 4 -> 3  Cost :7
+SRC : 23 Destination : 4 Path : 23 -> 17 -> 11 -> 8 -> 2 -> 3 -> 4  Cost :6
+SRC : 23 Destination : 4 Path : 23 -> 18 -> 14 -> 7 -> 6 -> 5 -> 4  Cost :6
+SRC : 23 Destination : 5 Path : 23 -> 17 -> 14 -> 7 -> 6 -> 5  Cost :5
+SRC : 23 Destination : 5 Path : 23 -> 18 -> 14 -> 8 -> 2 -> 3 -> 4 -> 5  Cost :7
+SRC : 23 Destination : 6 Path : 23 -> 17 -> 14 -> 7 -> 6  Cost :4
+SRC : 23 Destination : 6 Path : 23 -> 18 -> 14 -> 8 -> 2 -> 3 -> 4 -> 5 -> 6  Cost :8
+SRC : 23 Destination : 7 Path : 23 -> 17 -> 14 -> 7  Cost :3
+SRC : 23 Destination : 7 Path : 23 -> 18 -> 14 -> 8 -> 7  Cost :4
+SRC : 23 Destination : 8 Path : 23 -> 17 -> 11 -> 8  Cost :3
+SRC : 23 Destination : 8 Path : 23 -> 18 -> 14 -> 8  Cost :3
+SRC : 23 Destination : 9 Path : 23 -> 17 -> 12 -> 9  Cost :3
+SRC : 23 Destination : 9 Path : 23 -> 18 -> 14 -> 8 -> 9  Cost :4
+SRC : 23 Destination : 10 Path : 23 -> 17 -> 11 -> 10  Cost :3
+SRC : 23 Destination : 10 Path : 23 -> 16 -> 15 -> 10  Cost :3
+SRC : 23 Destination : 11 Path : 23 -> 17 -> 11  Cost :2
+SRC : 23 Destination : 11 Path : 23 -> 18 -> 14 -> 8 -> 11  Cost :4
+SRC : 23 Destination : 12 Path : 23 -> 17 -> 12  Cost :2
+SRC : 23 Destination : 12 Path : 23 -> 18 -> 14 -> 12  Cost :3
+SRC : 23 Destination : 13 Path : 23 -> 17 -> 12 -> 13  Cost :3
+SRC : 23 Destination : 13 Path : 23 -> 18 -> 14 -> 13  Cost :3
+SRC : 23 Destination : 14 Path : 23 -> 17 -> 14  Cost :2
+SRC : 23 Destination : 14 Path : 23 -> 18 -> 14  Cost :2
+SRC : 23 Destination : 15 Path : 23 -> 16 -> 15  Cost :2
+SRC : 23 Destination : 15 Path : 23 -> 17 -> 15  Cost :2
+SRC : 23 Destination : 16 Path : 23 -> 16  Cost :1
+SRC : 23 Destination : 16 Path : 23 -> 17 -> 16  Cost :2
+SRC : 23 Destination : 17 Path : 23 -> 17  Cost :1
+SRC : 23 Destination : 17 Path : 23 -> 16 -> 17  Cost :2
+SRC : 23 Destination : 18 Path : 23 -> 18  Cost :1
+SRC : 23 Destination : 18 Path : 23 -> 17 -> 18  Cost :2
+SRC : 23 Destination : 19 Path : 23 -> 18 -> 19  Cost :2
+SRC : 23 Destination : 19 Path : 23 -> 17 -> 14 -> 19  Cost :3
+SRC : 23 Destination : 20 Path : 23 -> 18 -> 20  Cost :2
+SRC : 23 Destination : 20 Path : 23 -> 22 -> 21 -> 20  Cost :3
+SRC : 23 Destination : 21 Path : 23 -> 18 -> 21  Cost :2
+SRC : 23 Destination : 21 Path : 23 -> 22 -> 21  Cost :2
+SRC : 23 Destination : 22 Path : 23 -> 22  Cost :1
+SRC : 23 Destination : 22 Path : 23 -> 17 -> 22  Cost :2

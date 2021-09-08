@@ -1,0 +1,294 @@
+ Forwarding table  for Node 0
+Label in : 655 Interface in : 1 label out : -1 interface_out : -1
+
+Label in : 657 Interface in : 0 label out : 104 interface_out : 2
+
+Label in : 641 Interface in : 0 label out : 632 interface_out : 1
+
+Label in : 101 Interface in : 1 label out : -1 interface_out : -1
+
+Label in : 8 Interface in : 2 label out : -1 interface_out : -1
+
+Label in : 304 Interface in : 1 label out : -1 interface_out : -1
+
+Label in : -1 Interface in : -1 label out : 788 interface_out : 2
+
+ Forwarding table  for Node 1
+Label in : 177 Interface in : 1 label out : 657 interface_out : 0
+
+Label in : 148 Interface in : 1 label out : 641 interface_out : 0
+
+ Forwarding table  for Node 2
+Label in : 718 Interface in : 2 label out : 793 interface_out : 1
+
+Label in : -1 Interface in : -1 label out : 177 interface_out : 0
+
+Label in : -1 Interface in : -1 label out : 148 interface_out : 0
+
+ Forwarding table  for Node 3
+Label in : 793 Interface in : 0 label out : 173 interface_out : 1
+
+ Forwarding table  for Node 4
+Label in : 173 Interface in : 0 label out : -1 interface_out : -1
+
+Label in : -1 Interface in : -1 label out : 701 interface_out : 1
+
+ Forwarding table  for Node 5
+Label in : -1 Interface in : -1 label out : 287 interface_out : 1
+
+Label in : -1 Interface in : -1 label out : 375 interface_out : 1
+
+Label in : 701 Interface in : 0 label out : -1 interface_out : -1
+
+ Forwarding table  for Node 6
+Label in : 122 Interface in : 1 label out : -1 interface_out : -1
+
+Label in : 287 Interface in : 0 label out : 986 interface_out : 1
+
+Label in : 375 Interface in : 0 label out : 626 interface_out : 1
+
+ Forwarding table  for Node 7
+Label in : 535 Interface in : 1 label out : 581 interface_out : 2
+
+Label in : 443 Interface in : 2 label out : -1 interface_out : -1
+
+Label in : 83 Interface in : 3 label out : 122 interface_out : 0
+
+Label in : 986 Interface in : 0 label out : 445 interface_out : 2
+
+Label in : 883 Interface in : 1 label out : -1 interface_out : -1
+
+Label in : -1 Interface in : -1 label out : 109 interface_out : 3
+
+Label in : 626 Interface in : 0 label out : 162 interface_out : 3
+
+Label in : -1 Interface in : -1 label out : 130 interface_out : 3
+
+ Forwarding table  for Node 8
+Label in : 789 Interface in : 6 label out : 655 interface_out : 0
+
+Label in : 8 Interface in : 6 label out : 718 interface_out : 1
+
+Label in : 632 Interface in : 0 label out : 535 interface_out : 2
+
+Label in : 859 Interface in : 4 label out : 101 interface_out : 0
+
+Label in : 873 Interface in : 3 label out : -1 interface_out : -1
+
+Label in : 787 Interface in : 4 label out : 304 interface_out : 0
+
+Label in : 493 Interface in : 4 label out : 883 interface_out : 2
+
+Label in : 39 Interface in : 3 label out : 751 interface_out : 6
+
+Label in : 500 Interface in : 6 label out : 227 interface_out : 3
+
+ Forwarding table  for Node 9
+Label in : 104 Interface in : 0 label out : 696 interface_out : 2
+
+Label in : -1 Interface in : -1 label out : 8 interface_out : 0
+
+Label in : 320 Interface in : 2 label out : 873 interface_out : 1
+
+Label in : 788 Interface in : 0 label out : 415 interface_out : 2
+
+Label in : -1 Interface in : -1 label out : 192 interface_out : 2
+
+Label in : -1 Interface in : -1 label out : 39 interface_out : 1
+
+Label in : 227 Interface in : 1 label out : -1 interface_out : -1
+
+ Forwarding table  for Node 10
+Label in : 696 Interface in : 0 label out : 873 interface_out : 1
+
+Label in : 604 Interface in : 1 label out : 262 interface_out : 2
+
+Label in : -1 Interface in : -1 label out : 320 interface_out : 0
+
+Label in : 415 Interface in : 0 label out : -1 interface_out : -1
+
+Label in : 192 Interface in : 0 label out : 816 interface_out : 2
+
+ Forwarding table  for Node 11
+Label in : 873 Interface in : 1 label out : -1 interface_out : -1
+
+Label in : 835 Interface in : 3 label out : 859 interface_out : 0
+
+Label in : -1 Interface in : -1 label out : 48 interface_out : 3
+
+Label in : -1 Interface in : -1 label out : 581 interface_out : 3
+
+Label in : -1 Interface in : -1 label out : 604 interface_out : 1
+
+Label in : 451 Interface in : 3 label out : 787 interface_out : 0
+
+Label in : -1 Interface in : -1 label out : 493 interface_out : 0
+
+Label in : -1 Interface in : -1 label out : 21 interface_out : 2
+
+ Forwarding table  for Node 12
+Label in : -1 Interface in : -1 label out : 72 interface_out : 3
+
+Label in : 604 Interface in : 5 label out : -1 interface_out : -1
+
+Label in : -1 Interface in : -1 label out : 118 interface_out : 5
+
+Label in : -1 Interface in : -1 label out : 482 interface_out : 5
+
+Label in : 206 Interface in : 3 label out : 453 interface_out : 5
+
+Label in : 21 Interface in : 2 label out : 555 interface_out : 4
+
+ Forwarding table  for Node 13
+Label in : 581 Interface in : 0 label out : 872 interface_out : 3
+
+Label in : 72 Interface in : 1 label out : 443 interface_out : 0
+
+Label in : 445 Interface in : 0 label out : -1 interface_out : -1
+
+Label in : -1 Interface in : -1 label out : 206 interface_out : 1
+
+ Forwarding table  for Node 14
+Label in : 414 Interface in : 5 label out : 789 interface_out : 1
+
+Label in : 458 Interface in : 6 label out : 8 interface_out : 1
+
+Label in : -1 Interface in : -1 label out : 621 interface_out : 4
+
+Label in : -1 Interface in : -1 label out : 544 interface_out : 6
+
+Label in : -1 Interface in : -1 label out : 83 interface_out : 0
+
+Label in : 109 Interface in : 0 label out : -1 interface_out : -1
+
+Label in : 162 Interface in : 0 label out : 976 interface_out : 4
+
+Label in : 751 Interface in : 1 label out : -1 interface_out : -1
+
+Label in : 130 Interface in : 0 label out : 310 interface_out : 4
+
+Label in : -1 Interface in : -1 label out : 181 interface_out : 6
+
+Label in : 649 Interface in : 5 label out : 500 interface_out : 1
+
+Label in : 555 Interface in : 2 label out : -1 interface_out : -1
+
+ Forwarding table  for Node 15
+Label in : 601 Interface in : 2 label out : -1 interface_out : -1
+
+Label in : 262 Interface in : 0 label out : -1 interface_out : -1
+
+Label in : -1 Interface in : -1 label out : 779 interface_out : 3
+
+Label in : 274 Interface in : 2 label out : -1 interface_out : -1
+
+Label in : 745 Interface in : 2 label out : -1 interface_out : -1
+
+Label in : 816 Interface in : 0 label out : -1 interface_out : -1
+
+Label in : 305 Interface in : 2 label out : -1 interface_out : -1
+
+Label in : 312 Interface in : 3 label out : -1 interface_out : -1
+
+Label in : 63 Interface in : 3 label out : -1 interface_out : -1
+
+ Forwarding table  for Node 16
+Label in : 842 Interface in : 1 label out : -1 interface_out : -1
+
+ Forwarding table  for Node 17
+Label in : 621 Interface in : 2 label out : 842 interface_out : 4
+
+Label in : 26 Interface in : 7 label out : 835 interface_out : 0
+
+Label in : -1 Interface in : -1 label out : 601 interface_out : 3
+
+Label in : 48 Interface in : 0 label out : 756 interface_out : 5
+
+Label in : 427 Interface in : 6 label out : 604 interface_out : 1
+
+Label in : 581 Interface in : 0 label out : -1 interface_out : -1
+
+Label in : 452 Interface in : 5 label out : -1 interface_out : -1
+
+Label in : 531 Interface in : 6 label out : 451 interface_out : 0
+
+Label in : 976 Interface in : 2 label out : 274 interface_out : 3
+
+Label in : 118 Interface in : 1 label out : 788 interface_out : 6
+
+Label in : 482 Interface in : 1 label out : 745 interface_out : 3
+
+Label in : 453 Interface in : 1 label out : 305 interface_out : 3
+
+Label in : 310 Interface in : 2 label out : 196 interface_out : 6
+
+ Forwarding table  for Node 18
+Label in : 323 Interface in : 5 label out : 414 interface_out : 0
+
+Label in : 756 Interface in : 2 label out : 459 interface_out : 5
+
+Label in : 485 Interface in : 5 label out : 452 interface_out : 2
+
+Label in : 779 Interface in : 1 label out : 344 interface_out : 5
+
+Label in : 494 Interface in : 7 label out : -1 interface_out : -1
+
+Label in : 366 Interface in : 4 label out : 312 interface_out : 1
+
+Label in : -1 Interface in : -1 label out : 649 interface_out : 0
+
+Label in : 732 Interface in : 4 label out : 688 interface_out : 6
+
+Label in : -1 Interface in : -1 label out : 394 interface_out : 4
+
+Label in : 393 Interface in : 5 label out : 63 interface_out : 1
+
+Label in : 792 Interface in : 5 label out : -1 interface_out : -1
+
+ Forwarding table  for Node 19
+Label in : -1 Interface in : -1 label out : 458 interface_out : 1
+
+Label in : 872 Interface in : 0 label out : 658 interface_out : 3
+
+Label in : 544 Interface in : 1 label out : -1 interface_out : -1
+
+Label in : 181 Interface in : 1 label out : -1 interface_out : -1
+
+ Forwarding table  for Node 20
+Label in : 658 Interface in : 1 label out : -1 interface_out : -1
+
+Label in : -1 Interface in : -1 label out : 366 interface_out : 0
+
+Label in : -1 Interface in : -1 label out : 732 interface_out : 0
+
+Label in : 394 Interface in : 0 label out : -1 interface_out : -1
+
+ Forwarding table  for Node 21
+Label in : -1 Interface in : -1 label out : 323 interface_out : 0
+
+Label in : 459 Interface in : 0 label out : -1 interface_out : -1
+
+Label in : -1 Interface in : -1 label out : 485 interface_out : 0
+
+Label in : 344 Interface in : 0 label out : -1 interface_out : -1
+
+Label in : -1 Interface in : -1 label out : 393 interface_out : 0
+
+Label in : -1 Interface in : -1 label out : 792 interface_out : 0
+
+ Forwarding table  for Node 22
+Label in : -1 Interface in : -1 label out : 427 interface_out : 0
+
+Label in : -1 Interface in : -1 label out : 531 interface_out : 0
+
+Label in : 788 Interface in : 0 label out : -1 interface_out : -1
+
+Label in : 196 Interface in : 0 label out : -1 interface_out : -1
+
+Label in : 688 Interface in : 1 label out : -1 interface_out : -1
+
+ Forwarding table  for Node 23
+Label in : -1 Interface in : -1 label out : 26 interface_out : 1
+
+Label in : -1 Interface in : -1 label out : 494 interface_out : 2
+
